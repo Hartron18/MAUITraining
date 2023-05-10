@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "rpQgB6/h9xVLbod5I4iMLIo7y4riu27MxOSE5w+6Op1+ARfoTH7pDUAtuT6zqMcOvW5fgNU5q3TGdTXBWQACNw==",
+  "dgSpecHash": "iAqfqeS7KpnUojvAEVMopaI+7M9ZElBvuqPjLi99sayf4M/Eeg8qXNzVpr6/rooYCWmKR81dXqScsb4wBBogCg==",
   "success": true,
   "projectFilePath": "C:\\Users\\HARTRON\\Desktop\\ProgramApps\\MAUITraining\\MAUITraining.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\HARTRON\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.0\\communitytoolkit.mvvm.8.2.0.nupkg.sha512",
     "C:\\Users\\HARTRON\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\HARTRON\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\HARTRON\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",

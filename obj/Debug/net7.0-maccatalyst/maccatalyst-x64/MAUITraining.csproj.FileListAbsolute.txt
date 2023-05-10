@@ -261,3 +261,4 @@ C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-maccatalyst\m
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\MAUITraining.pdb
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\MAUITraining.genruntimeconfig.cache
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\ref\MAUITraining.dll
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\CommunityToolkit.Mvvm.dll
