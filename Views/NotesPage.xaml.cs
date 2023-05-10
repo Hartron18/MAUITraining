@@ -1,15 +1,42 @@
+using MAUITraining.Models;
+
 namespace MAUITraining.Views;
 
+[QueryProperty(nameof(ItemId), nameof(ItemId))]
 public partial class NotesPage : ContentPage
 {
-	public NotesPage()
+    public string ItemId
+    {
+        set { LoadNote(value); }
+    }
+
+    public NotesPage()
 	{
 		InitializeComponent();
 
-        if(File.Exists(_fileName)) TextEditor.Text = File.ReadAllText(_fileName);
-	}
+        string appDataPath = FileSystem.AppDataDirectory;
+        string randomFileName = $"{Path.GetRandomFileName()}.notes.txt";
+
+        LoadNote(Path.Combine(appDataPath, randomFileName));
+        
+    }
+
+    private void LoadNote(string filename)
+    {
+        Note note = new ();
+        note.FileName= filename;
+
+        if (File.Exists(filename))
+        {
+            note.Date = File.GetCreationTime(filename);
+            note.Text= File.ReadAllText(filename);
+        }
+
+        BindingContext= note;
+    }
 
     string _fileName = Path.Combine(FileSystem.AppDataDirectory, "notes.txt");
+    
 
     private void SaveButton_Clicked(object sender, EventArgs e)
     {

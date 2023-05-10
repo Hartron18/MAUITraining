@@ -232,6 +232,10 @@ C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-maccatalyst\m
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot.png
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot@2x.png
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot@3x.png
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\icon_about.png
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\icon_about_ios.png
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\icon_notes.png
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\icon_notes_ios.png
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\mauiimage.stamp
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\f\MauiInfo.plist
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\mauifont.stamp
@@ -257,7 +261,3 @@ C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-maccatalyst\m
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\MAUITraining.pdb
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\MAUITraining.genruntimeconfig.cache
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\ref\MAUITraining.dll
-C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\icon_about.png
-C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\icon_about_ios.png
-C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\icon_notes.png
-C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\icon_notes_ios.png
