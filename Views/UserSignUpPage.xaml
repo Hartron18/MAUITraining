@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUITraining.Views.UserSignUpPage"
+             xmlns:viewModels="clr-namespace:MAUITraining.ViewModels"
+             Title="SignUp">
+    <ContentPage.BindingContext>
+        <viewModels:SignUpViewModel></viewModels:SignUpViewModel>
+    </ContentPage.BindingContext>
+    <Grid RowDefinitions="1*, 20*, 1*"
+          Margin="15"
+          Padding="10">
+        <Frame Grid.Row="1" BackgroundColor="GhostWhite">
+            <ScrollView>
+                <VerticalStackLayout Spacing="20">
+
+                    <Label Text="SignUp" FontSize="28" FontAttributes="Bold"/>
+
+                    <Frame InputTransparent="True" HasShadow="false" Padding="5">
+                        <Entry Placeholder="email@example.com" Text="{Binding Email}"></Entry>
+                    </Frame>
+                    <Frame InputTransparent="True" HasShadow="false" Padding="5" >
+                        <Entry Placeholder="UserName" Text="{Binding DisplayName}"></Entry>
+                    </Frame>
+                   
+                    <Frame InputTransparent="True" HasShadow="True" Padding="5">
+                        <Entry Placeholder="Password" Text="{Binding Password}" IsPassword="True"></Entry>
+                    </Frame>
+
+                    <Button Text="SignUp" Command="{Binding SignUpCommand}" FontAttributes="Bold" Padding="10"/>
+
+                    <Label Text="Already have an account? Click to LogIn"/>
+                    
+                   
+
+
+                </VerticalStackLayout>
+            </ScrollView>
+            
+        </Frame>
+    </Grid>
+</ContentPage>

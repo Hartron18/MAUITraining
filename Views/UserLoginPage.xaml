@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUITraining.Views.UserLoginPage"
+             xmlns:viewModels ="clr-namespace:MAUITraining.ViewModels"
+             Title="LogIn">
+    <ContentPage.BindingContext>
+        <viewModels:LoginViewModel></viewModels:LoginViewModel>
+    </ContentPage.BindingContext>
+    <Grid RowDefinitions="2*, 6*, 2*"
+          Margin="15"
+          Padding="10">
+        <Frame Grid.Row="1" BackgroundColor="GhostWhite">
+            <VerticalStackLayout Spacing="20">
+                <Label Text="LogIn" FontSize="28" FontAttributes="Bold"/>
+
+                <Frame InputTransparent="True" HasShadow="True">
+                    <Entry Placeholder="email@example.com" Text="{Binding Email}"></Entry>
+                </Frame>
+                <Frame InputTransparent="True" HasShadow="True" >
+                    <Entry Placeholder="Password" Text="{Binding Password}" IsPassword="True"></Entry>
+                </Frame>
+                
+
+                <Button Text="LogIn" Command="{Binding LogInCommand}" HeightRequest="25"/>
+
+                <Label Text="Dont have an account? Click to SignUp"/>
+
+
+            </VerticalStackLayout>
+        </Frame>
+    </Grid>
+</ContentPage>

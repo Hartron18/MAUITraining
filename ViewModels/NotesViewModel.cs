@@ -12,9 +12,10 @@ namespace MAUITraining.ViewModels
         public NotesViewModel()
         {
             AllNotes = new ObservableCollection<NoteViewModel>(
-                Models.Note.LoadAll().Select(n => new NoteViewModel(n)));
+                Note.LoadAll().Select(n => new NoteViewModel(n)).OrderBy(order => order.Date));
             NewCommand = new AsyncRelayCommand(NewNoteAsync);
             SelectNoteCommand = new AsyncRelayCommand<NoteViewModel>(SelectNoteAsync);
+            LogInCommand = new AsyncRelayCommand(LogInAsync);
         }
 
         private async Task NewNoteAsync()
@@ -27,10 +28,15 @@ namespace MAUITraining.ViewModels
             if(note != null)
                 await Shell.Current.GoToAsync($"{nameof(NotesPage)}?load={note.Identifier}");
         }
+        private async Task LogInAsync()
+        {
+            await Shell.Current.GoToAsync(nameof(UserLoginPage));
+        }
 
         public ObservableCollection<NoteViewModel> AllNotes { get; }
         public ICommand NewCommand { get; }
         public ICommand SelectNoteCommand { get; }
+        public ICommand LogInCommand { get; }
 
         public void ApplyQueryAttributes(IDictionary<string, object> query)
         {

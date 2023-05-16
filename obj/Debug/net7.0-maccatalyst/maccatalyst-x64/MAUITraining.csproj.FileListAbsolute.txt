@@ -1,6 +1,7 @@
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\MAUITraining.runtimeconfig.json
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\MAUITraining.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\MAUITraining.pdb
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\CommunityToolkit.Mvvm.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Configuration.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.DependencyInjection.dll
@@ -11,6 +12,7 @@ C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\m
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Options.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Primitives.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Graphics.dll
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Newtonsoft.Json.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.CSharp.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.VisualBasic.Core.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.VisualBasic.dll
@@ -261,4 +263,3 @@ C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-maccatalyst\m
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\MAUITraining.pdb
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\MAUITraining.genruntimeconfig.cache
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\ref\MAUITraining.dll
-C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\CommunityToolkit.Mvvm.dll

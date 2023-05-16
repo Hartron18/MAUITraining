@@ -5,10 +5,13 @@
              xmlns:viewModels ="clr-namespace:MAUITraining.ViewModels"
              
              Title="My Notes">
-    
+
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Add" Command="{Binding NewCommand}" IconImageSource="{FontImage Glyph='+', Color=White, Size=22}" />
+
+        <ToolbarItem Text="Add" Command="{Binding NewCommand}" IconImageSource="{FontImage Glyph='+', Color=White, Size=25}" />
+        <ToolbarItem Text="LogIn" Command="{Binding LogInCommand}"/>
     </ContentPage.ToolbarItems>
+    
     <ContentPage.BindingContext>
         <viewModels:NotesViewModel></viewModels:NotesViewModel>
     </ContentPage.BindingContext>

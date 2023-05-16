@@ -46,14 +46,50 @@ build_metadata.AdditionalFiles.ManifestResourceName = MAUITraining.Views.AboutPa
 build_metadata.AdditionalFiles.TargetPath = Views\AboutPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\AboutPage.xaml
 
+[C:/Users/HARTRON/Desktop/ProgramApps/MAUITraining/Views/AccesstoFinancePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUITraining.Views.AccesstoFinancePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AccesstoFinancePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AccesstoFinancePage.xaml
+
+[C:/Users/HARTRON/Desktop/ProgramApps/MAUITraining/Views/AccesstoMarketPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUITraining.Views.AccesstoMarketPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AccesstoMarketPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AccesstoMarketPage.xaml
+
+[C:/Users/HARTRON/Desktop/ProgramApps/MAUITraining/Views/AccesstoTrainingPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUITraining.Views.AccesstoTrainingPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AccesstoTrainingPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AccesstoTrainingPage.xaml
+
 [C:/Users/HARTRON/Desktop/ProgramApps/MAUITraining/Views/AllNotesPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MAUITraining.Views.AllNotesPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\AllNotesPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\AllNotesPage.xaml
 
+[C:/Users/HARTRON/Desktop/ProgramApps/MAUITraining/Views/HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUITraining.Views.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\HomePage.xaml
+
 [C:/Users/HARTRON/Desktop/ProgramApps/MAUITraining/Views/NotesPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MAUITraining.Views.NotesPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\NotesPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\NotesPage.xaml
+
+[C:/Users/HARTRON/Desktop/ProgramApps/MAUITraining/Views/UserLoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUITraining.Views.UserLoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\UserLoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\UserLoginPage.xaml
+
+[C:/Users/HARTRON/Desktop/ProgramApps/MAUITraining/Views/UserSignUpPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUITraining.Views.UserSignUpPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\UserSignUpPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\UserSignUpPage.xaml

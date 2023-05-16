@@ -1,3 +1,7 @@
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Options.dll
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Primitives.dll
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Graphics.Canvas.dll
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.SDK.NET.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MAUITraining.exe
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MAUITraining.deps.json
@@ -6,6 +10,7 @@ C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-windows10.0.1
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MAUITraining.pdb
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Mvvm.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Configuration.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.DependencyInjection.dll
@@ -13,8 +18,6 @@ C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-windows10.0.1
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Logging.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Logging.Debug.dll
-C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Options.dll
-C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Primitives.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Graphics.Canvas.Interop.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Maui.Graphics.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll
@@ -32,7 +35,7 @@ C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-windows10.0.1
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.System.Projection.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Widgets.Projection.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll
-C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Graphics.Canvas.dll
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Newtonsoft.Json.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Bootstrap.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.CSharp.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.VisualBasic.Core.dll
@@ -221,7 +224,6 @@ C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-windows10.0.1
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordbi.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscorrc.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\msquic.dll
-C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.SDK.NET.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\WinRT.Runtime.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MAUITraining.csproj.AssemblyReference.cache
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\mauiimage.inputs
@@ -326,4 +328,3 @@ C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.1
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
-C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Mvvm.dll
