@@ -4,6 +4,7 @@ using CommunityToolkit.Mvvm.Input;
 using MAUITraining.Models;
 using MAUITraining.Views;
 using Newtonsoft.Json;
+using Plugin.Fingerprint.Abstractions;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -19,6 +20,8 @@ namespace MAUITraining.ViewModels
     {
         HttpClient _httpClient;
 
+        private readonly IFingerprint fingerprint;
+
         [ObservableProperty]
         public LogIn login;
         [ObservableProperty]
@@ -27,10 +30,16 @@ namespace MAUITraining.ViewModels
         public string password;
        
 
-        public LoginViewModel()
+        public LoginViewModel(IFingerprint fingerprint)
         {
             Login= new ();
-            
+            this.fingerprint = fingerprint;
+
+        }
+
+        public LoginViewModel()
+        {
+            Login = new();
         }
 
         public async Task LogIn()
@@ -63,6 +72,21 @@ namespace MAUITraining.ViewModels
                 Debug.WriteLine($"Could not login {ex.Message}");
             }
             
+        }
+
+        [RelayCommand]
+        private async void OnBiometric()
+        {
+            var request = new AuthenticationRequestConfiguration("Fingerprint validation", "Validate with your fingerprint");
+            var result = await fingerprint.AuthenticateAsync(request);
+
+            if (result.Authenticated)
+            {
+                await Shell.Current.DisplayAlert("Authentication Successful", "Access Granted", "Continue");
+                await Shell.Current.GoToAsync(nameof(HomePage));
+            }
+
+            await Shell.Current.DisplayAlert("Authentication failed", "Access Denied", "Try again");
         }
     }
 }

@@ -7,7 +7,7 @@
     <ContentPage.BindingContext>
         <viewModels:LoginViewModel></viewModels:LoginViewModel>
     </ContentPage.BindingContext>
-    <Grid RowDefinitions="2*, 6*, 2*"
+    <Grid RowDefinitions="1*, 18*, 1*"
           Margin="15"
           Padding="10">
         <Frame Grid.Row="1" BackgroundColor="GhostWhite">
@@ -25,6 +25,9 @@
                 <Button Text="LogIn" Command="{Binding LogInCommand}" HeightRequest="25"/>
 
                 <Label Text="Dont have an account? Click to SignUp"/>
+
+                <Button Text="Login with Finger print" SemanticProperties.Hint="Click to authenticate with your fingerprint" 
+                            Command="{Binding OnBiometricCommand}" FontAttributes="Bold"/>
 
 
             </VerticalStackLayout>

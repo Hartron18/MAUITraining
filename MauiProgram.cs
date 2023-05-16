@@ -1,5 +1,7 @@
 ﻿using MAUITraining.Models;
 using Microsoft.Extensions.Logging;
+using Plugin.Fingerprint;
+using Plugin.Fingerprint.Abstractions;
 
 namespace MAUITraining;
 
@@ -15,6 +17,7 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			});
+		builder.Services.AddSingleton(typeof(IFingerprint), CrossFingerprint.Current);
 		
 
 #if DEBUG

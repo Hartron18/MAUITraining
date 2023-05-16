@@ -9,6 +9,8 @@
   <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="33" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+  <uses-permission android:name="android.permission.USE_FINGERPRINT" />
   <permission android:name="com.companyname.mauitraining.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature" />
   <uses-permission android:name="com.companyname.mauitraining.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
   <application android:name="crc648f499eee80d28424.MainApplication" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:icon="@mipmap/appicon" android:label="MAUITraining" android:roundIcon="@mipmap/appicon_round" android:supportsRtl="true">

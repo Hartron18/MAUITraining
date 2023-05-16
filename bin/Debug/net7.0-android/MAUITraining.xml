@@ -6,6 +6,7 @@
     <members>
         <member name="T:MAUITraining.ViewModels.LoginViewModel">
             <inheritdoc/>
+            <inheritdoc/>
         </member>
         <member name="P:MAUITraining.ViewModels.LoginViewModel.Login">
             <inheritdoc cref="F:MAUITraining.ViewModels.LoginViewModel.login"/>
@@ -15,6 +16,12 @@
         </member>
         <member name="P:MAUITraining.ViewModels.LoginViewModel.Password">
             <inheritdoc cref="F:MAUITraining.ViewModels.LoginViewModel.password"/>
+        </member>
+        <member name="F:MAUITraining.ViewModels.LoginViewModel.biometricCommand">
+            <summary>The backing field for <see cref="P:MAUITraining.ViewModels.LoginViewModel.BiometricCommand"/>.</summary>
+        </member>
+        <member name="P:MAUITraining.ViewModels.LoginViewModel.BiometricCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MAUITraining.ViewModels.LoginViewModel.OnBiometric"/>.</summary>
         </member>
         <member name="T:MAUITraining.ViewModels.SignUpViewModel">
             <inheritdoc/>

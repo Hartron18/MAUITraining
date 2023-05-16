@@ -3,6 +3,7 @@ using CommunityToolkit.Mvvm.Input;
 using MAUITraining.Models;
 using MAUITraining.Views;
 using Newtonsoft.Json;
+using Plugin.Fingerprint.Abstractions;
 using System.Diagnostics;
 using System.Text;
 
@@ -15,9 +16,11 @@ namespace MAUITraining.ViewModels
         private SignUp user;
 
         HttpClient _httpClient;
+       
         public SignUpViewModel()
         {
             User = new SignUp();
+            
             //SignUpCommand = new AsyncRelayCommand(SignUp);
         }
         [ObservableProperty]
@@ -63,5 +66,7 @@ namespace MAUITraining.ViewModels
             }
 
         }
+
+        
     }
 }
