@@ -268,3 +268,4 @@ C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\m
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Maps.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\CommunityToolkit.Maui.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\CommunityToolkit.Maui.Core.dll
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Plugin.LocalNotification.dll

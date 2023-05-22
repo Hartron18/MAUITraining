@@ -5,6 +5,7 @@ using MAUITraining.Views;
 using Microsoft.Extensions.Logging;
 using Plugin.Fingerprint;
 using Plugin.Fingerprint.Abstractions;
+using Plugin.LocalNotification;
 
 namespace MAUITraining;
 
@@ -21,7 +22,10 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			})
 			.UseMauiMaps()
-            .UseMauiCommunityToolkit();
+            .UseMauiCommunityToolkit()
+			.UseLocalNotification();
+
+
 		if (!DeviceInfo.Platform.Equals(DevicePlatform.WinUI))
 		{
             builder.Services.AddSingleton(typeof(IFingerprint), CrossFingerprint.Current);

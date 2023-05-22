@@ -25,6 +25,6 @@
         <Button Text= "Toast" Command="{Binding ToastNotificationCommand}" BackgroundColor="Purple"/>
         <Button Text= "Pop-up" Command="{Binding PopupNotificationCommand}" BackgroundColor="GreenYellow"/>
         <Button Text= "Snackbar" Command="{Binding SnackbarNotificationCommand}" BackgroundColor="MintCream"/>
-        <Button Text= "LocalNotification" Command="{Binding NotificationnCommand}" BackgroundColor="LightCoral"/>
+        <Button Text= "Local Notification" Command="{Binding NotificationnCommand}" BackgroundColor="LightCoral"/>
     </VerticalStackLayout>
 </ContentPage>

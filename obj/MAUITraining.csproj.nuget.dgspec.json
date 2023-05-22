@@ -110,6 +110,10 @@
               "target": "Package",
               "version": "[2.1.5, )"
             },
+            "Plugin.LocalNotification": {
+              "target": "Package",
+              "version": "[10.1.5, )"
+            },
             "Xamarin.Android.Glide": {
               "target": "Package",
               "version": "[4.13.2.2, )",
@@ -247,6 +251,10 @@
             "Plugin.Fingerprint": {
               "target": "Package",
               "version": "[2.1.5, )"
+            },
+            "Plugin.LocalNotification": {
+              "target": "Package",
+              "version": "[10.1.5, )"
             }
           },
           "imports": [
@@ -330,6 +338,10 @@
             "Plugin.Fingerprint": {
               "target": "Package",
               "version": "[2.1.5, )"
+            },
+            "Plugin.LocalNotification": {
+              "target": "Package",
+              "version": "[10.1.5, )"
             }
           },
           "imports": [
@@ -430,6 +442,10 @@
             "Plugin.Fingerprint": {
               "target": "Package",
               "version": "[2.1.5, )"
+            },
+            "Plugin.LocalNotification": {
+              "target": "Package",
+              "version": "[10.1.5, )"
             }
           },
           "imports": [

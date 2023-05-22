@@ -3,6 +3,7 @@ using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using MAUITraining.Models;
 using MAUITraining.Views;
+using Microsoft.Maui.Controls;
 using Newtonsoft.Json;
 using Plugin.Fingerprint.Abstractions;
 using System;
@@ -93,6 +94,7 @@ namespace MAUITraining.ViewModels
                 {
                     //await Shell.Current.DisplayAlert("Authentication Successful", "Access Granted", "Continue");
                     await Shell.Current.GoToAsync(nameof(PaymentPage));
+                    
                 }
                 else
                 {

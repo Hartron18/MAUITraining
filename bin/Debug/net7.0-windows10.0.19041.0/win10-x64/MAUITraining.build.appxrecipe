@@ -703,6 +703,9 @@
     <AppxPackagedFile Include="C:\Users\HARTRON\.nuget\packages\plugin.fingerprint\2.1.5\lib\netstandard2.0\Plugin.Fingerprint.dll">
       <PackagePath>Plugin.Fingerprint.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\HARTRON\.nuget\packages\plugin.localnotification\10.1.5\lib\net7.0\Plugin.LocalNotification.dll">
+      <PackagePath>Plugin.LocalNotification.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\.nuget\packages\microsoft.graphics.win2d\1.0.4\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
     </AppxPackagedFile>

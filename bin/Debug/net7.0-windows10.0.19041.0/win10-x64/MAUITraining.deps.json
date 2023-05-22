@@ -23,6 +23,7 @@
           "Microsoft.WindowsAppSDK": "1.2.221209.1",
           "Newtonsoft.Json": "13.0.3",
           "Plugin.Fingerprint": "2.1.5",
+          "Plugin.LocalNotification": "10.1.5",
           "runtimepack.Microsoft.NETCore.App.Runtime.win-x64": "7.0.5",
           "runtimepack.Microsoft.Maui.Core.Runtime.win": "7.0.59",
           "runtimepack.Microsoft.Maui.Controls.Runtime.win": "7.0.59",
@@ -1061,6 +1062,14 @@
             "fileVersion": "2.1.5.0"
           }
         }
+      },
+      "Plugin.LocalNotification/10.1.5": {
+        "runtime": {
+          "lib/net7.0/Plugin.LocalNotification.dll": {
+            "assemblyVersion": "10.1.5.0",
+            "fileVersion": "10.1.5.0"
+          }
+        }
       }
     }
   },
@@ -1241,6 +1250,13 @@
       "sha512": "sha512-+EyrBLC4a4JCgixgqSfI77Gf/pRMs/pe/LLoGBr1iyfwYFRfu7bjlHbO37ie8G5g/wV/gu9haMU26BneI4AAfg==",
       "path": "plugin.fingerprint/2.1.5",
       "hashPath": "plugin.fingerprint.2.1.5.nupkg.sha512"
+    },
+    "Plugin.LocalNotification/10.1.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zk23/BDz6I2DmFQGVVgNuxfteg7TXm2dRdC+aS2dXTfPniF89jJ8uuU/KvJJGr2fdabRK/LTGo0owuljIidBNg==",
+      "path": "plugin.localnotification/10.1.5",
+      "hashPath": "plugin.localnotification.10.1.5.nupkg.sha512"
     }
   },
   "runtimes": {

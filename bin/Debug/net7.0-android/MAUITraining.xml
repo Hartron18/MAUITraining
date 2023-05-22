@@ -35,6 +35,9 @@
             <inheritdoc/>
             <inheritdoc/>
             <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
         </member>
         <member name="P:MAUITraining.ViewModels.PaymentViewModel.Name">
             <inheritdoc cref="F:MAUITraining.ViewModels.PaymentViewModel.name"/>
@@ -68,6 +71,24 @@
         </member>
         <member name="P:MAUITraining.ViewModels.PaymentViewModel.ToastNotificationCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:MAUITraining.ViewModels.PaymentViewModel.ToastNotification(System.Threading.CancellationTokenSource)"/>.</summary>
+        </member>
+        <member name="F:MAUITraining.ViewModels.PaymentViewModel.snackbarNotificationCommand">
+            <summary>The backing field for <see cref="P:MAUITraining.ViewModels.PaymentViewModel.SnackbarNotificationCommand"/>.</summary>
+        </member>
+        <member name="P:MAUITraining.ViewModels.PaymentViewModel.SnackbarNotificationCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:MAUITraining.ViewModels.PaymentViewModel.SnackbarNotification(System.Threading.CancellationTokenSource)"/>.</summary>
+        </member>
+        <member name="F:MAUITraining.ViewModels.PaymentViewModel.popupNotificationCommand">
+            <summary>The backing field for <see cref="P:MAUITraining.ViewModels.PaymentViewModel.PopupNotificationCommand"/>.</summary>
+        </member>
+        <member name="P:MAUITraining.ViewModels.PaymentViewModel.PopupNotificationCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MAUITraining.ViewModels.PaymentViewModel.PopupNotification"/>.</summary>
+        </member>
+        <member name="F:MAUITraining.ViewModels.PaymentViewModel.notificationnCommand">
+            <summary>The backing field for <see cref="P:MAUITraining.ViewModels.PaymentViewModel.NotificationnCommand"/>.</summary>
+        </member>
+        <member name="P:MAUITraining.ViewModels.PaymentViewModel.NotificationnCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MAUITraining.ViewModels.PaymentViewModel.Notificationn"/>.</summary>
         </member>
         <member name="T:MAUITraining.ViewModels.SignUpViewModel">
             <inheritdoc/>

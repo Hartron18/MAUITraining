@@ -5,6 +5,7 @@ using CommunityToolkit.Mvvm.Input;
 using MAUITraining.Models;
 using MAUITraining.Views;
 using Newtonsoft.Json;
+using Plugin.LocalNotification;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -86,11 +87,31 @@ namespace MAUITraining.ViewModels
             await toast.Show();
         }
 
-        //[RelayCommand]
-        //public async void SnackbarNotification()
-        //{
+        [RelayCommand]
+        public async void SnackbarNotification(CancellationTokenSource token)
+        {
+            token = new CancellationTokenSource();
 
-        //}
+            var snackbarOptions = new SnackbarOptions
+            {
+                BackgroundColor = Colors.Chocolate,
+                TextColor = Colors.Yellow,
+                ActionButtonTextColor = Colors.White,
+                ActionButtonFont = Microsoft.Maui.Font.SystemFontOfSize(12),
+                CornerRadius = new CornerRadius(10)
+            };
+
+            string text = "Give me a Snack bar";
+            string actionButtonText = "Dismiss";
+            Action action = null;
+            TimeSpan duration = TimeSpan.FromSeconds(3);
+
+            var snackbar = Snackbar.Make(text, action, actionButtonText, duration, snackbarOptions);
+
+            await snackbar.Show(token.Token);
+
+            Shell.Current.DisplaySnackbar("Snackbar 2", action, actionButtonText, duration);
+        }
 
         //[RelayCommand]
         //public async void Notificationn()
@@ -98,10 +119,35 @@ namespace MAUITraining.ViewModels
 
         //}
 
-        //[RelayCommand]
-        //public async void PopupNotification()
-        //{
+        [RelayCommand]
+        public void PopupNotification()
+        {
+            Shell.Current.DisplayAlert("Popup Alert", "This is a popup", "Continue", "Cancel");
 
-        //}
+            Shell.Current.DisplayActionSheet("ActionSheet", "Cancel", "Delete", "Email", "Facebook", "Whatsapp");
+
+            Shell.Current.DisplayPromptAsync("Prompt me", "Whats's your name?", "OK", "Cancel");
+
+        }
+
+        [RelayCommand]
+        public async void Notificationn()
+        {
+            var request = new NotificationRequest
+            {
+                NotificationId = 100000,
+                Title = "New Book",
+                Subtitle = "Your new book has arrived",
+                Description = "Stay tuned",
+                BadgeNumber = 40,
+                Schedule = new NotificationRequestSchedule
+                {
+                    NotifyTime = DateTime.Now.AddSeconds(6),
+                    NotifyRepeatInterval = TimeSpan.FromSeconds(20)
+                }
+            };
+
+            await LocalNotificationCenter.Current.Show(request);
+        }
     }
 }

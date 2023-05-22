@@ -1066,6 +1066,15 @@ microsoft.maui.maps.handlers.MapCallbackHandler;crc64a5df8ade113ad624.MapCallbac
 Plugin.Fingerprint.AuthenticationHandler, Plugin.Fingerprint;crc64e6d0b84c6264ccdd.AuthenticationHandler
 Plugin.Fingerprint.AuthenticationHandler;crc64e6d0b84c6264ccdd.AuthenticationHandler
 plugin.fingerprint.AuthenticationHandler;crc64e6d0b84c6264ccdd.AuthenticationHandler
+Plugin.LocalNotification.Platforms.GeofenceTransitionsIntentReceiver, Plugin.LocalNotification;plugin.LocalNotification.GeofenceTransitionsIntentReceiver
+Plugin.LocalNotification.Platforms.GeofenceTransitionsIntentReceiver;plugin.LocalNotification.GeofenceTransitionsIntentReceiver
+plugin.LocalNotification.GeofenceTransitionsIntentReceiver;plugin.LocalNotification.GeofenceTransitionsIntentReceiver
+Plugin.LocalNotification.Platforms.NotificationActionReceiver, Plugin.LocalNotification;plugin.LocalNotification.NotificationActionReceiver
+Plugin.LocalNotification.Platforms.NotificationActionReceiver;plugin.LocalNotification.NotificationActionReceiver
+plugin.LocalNotification.NotificationActionReceiver;plugin.LocalNotification.NotificationActionReceiver
+Plugin.LocalNotification.Platforms.ScheduledAlarmReceiver, Plugin.LocalNotification;plugin.LocalNotification.ScheduledAlarmReceiver
+Plugin.LocalNotification.Platforms.ScheduledAlarmReceiver;plugin.LocalNotification.ScheduledAlarmReceiver
+plugin.LocalNotification.ScheduledAlarmReceiver;plugin.LocalNotification.ScheduledAlarmReceiver
 Bumptech.Glide.Glide+IRequestOptionsFactory, Xamarin.Android.Glide;com.bumptech.glide.Glide$RequestOptionsFactory
 Bumptech.Glide.Glide.IRequestOptionsFactory;com.bumptech.glide.Glide$RequestOptionsFactory
 com.bumptech.glide.Glide$RequestOptionsFactory;com.bumptech.glide.Glide$RequestOptionsFactory
@@ -3904,6 +3913,51 @@ com.google.android.gms.common.api.internal.LifecycleFragment;com.google.android.
 Android.Gms.Common.Apis.Internal.IStatusExceptionMapper, Xamarin.GooglePlayServices.Basement;com.google.android.gms.common.api.internal.StatusExceptionMapper
 Android.Gms.Common.Apis.Internal.IStatusExceptionMapper;com.google.android.gms.common.api.internal.StatusExceptionMapper
 com.google.android.gms.common.api.internal.StatusExceptionMapper;com.google.android.gms.common.api.internal.StatusExceptionMapper
+Android.Gms.Location.LocationListener, Xamarin.GooglePlayServices.Location;crc64e95e69e34d869711.LocationListener
+Android.Gms.Location.LocationListener;crc64e95e69e34d869711.LocationListener
+android.gms.location.LocationListener;crc64e95e69e34d869711.LocationListener
+Android.Gms.Location.LocationCallback, Xamarin.GooglePlayServices.Location;crc64e95e69e34d869711.LocationCallback
+Android.Gms.Location.LocationCallback;crc64e95e69e34d869711.LocationCallback
+android.gms.location.LocationCallback;crc64e95e69e34d869711.LocationCallback
+Android.Gms.Location.ActivityTransition+ISupportedActivityTransition, Xamarin.GooglePlayServices.Location;com.google.android.gms.location.ActivityTransition$SupportedActivityTransition
+Android.Gms.Location.ActivityTransition.ISupportedActivityTransition;com.google.android.gms.location.ActivityTransition$SupportedActivityTransition
+com.google.android.gms.location.ActivityTransition$SupportedActivityTransition;com.google.android.gms.location.ActivityTransition$SupportedActivityTransition
+Android.Gms.Location.GeofencingRequest+IInitialTrigger, Xamarin.GooglePlayServices.Location;com.google.android.gms.location.GeofencingRequest$InitialTrigger
+Android.Gms.Location.GeofencingRequest.IInitialTrigger;com.google.android.gms.location.GeofencingRequest$InitialTrigger
+com.google.android.gms.location.GeofencingRequest$InitialTrigger;com.google.android.gms.location.GeofencingRequest$InitialTrigger
+Android.Gms.Location.IActivityRecognitionApi, Xamarin.GooglePlayServices.Location;com.google.android.gms.location.ActivityRecognitionApi
+Android.Gms.Location.IActivityRecognitionApi;com.google.android.gms.location.ActivityRecognitionApi
+com.google.android.gms.location.ActivityRecognitionApi;com.google.android.gms.location.ActivityRecognitionApi
+Android.Gms.Location.IFusedLocationProviderApi, Xamarin.GooglePlayServices.Location;com.google.android.gms.location.FusedLocationProviderApi
+Android.Gms.Location.IFusedLocationProviderApi;com.google.android.gms.location.FusedLocationProviderApi
+com.google.android.gms.location.FusedLocationProviderApi;com.google.android.gms.location.FusedLocationProviderApi
+Android.Gms.Location.IGeofenceGeofenceTransition, Xamarin.GooglePlayServices.Location;com.google.android.gms.location.Geofence$GeofenceTransition
+Android.Gms.Location.IGeofenceGeofenceTransition;com.google.android.gms.location.Geofence$GeofenceTransition
+com.google.android.gms.location.Geofence$GeofenceTransition;com.google.android.gms.location.Geofence$GeofenceTransition
+Android.Gms.Location.IGeofenceTransitionTypes, Xamarin.GooglePlayServices.Location;com.google.android.gms.location.Geofence$TransitionTypes
+Android.Gms.Location.IGeofenceTransitionTypes;com.google.android.gms.location.Geofence$TransitionTypes
+com.google.android.gms.location.Geofence$TransitionTypes;com.google.android.gms.location.Geofence$TransitionTypes
+Android.Gms.Location.IGeofence, Xamarin.GooglePlayServices.Location;com.google.android.gms.location.Geofence
+Android.Gms.Location.IGeofence;com.google.android.gms.location.Geofence
+com.google.android.gms.location.Geofence;com.google.android.gms.location.Geofence
+Android.Gms.Location.IGeofencingApi, Xamarin.GooglePlayServices.Location;com.google.android.gms.location.GeofencingApi
+Android.Gms.Location.IGeofencingApi;com.google.android.gms.location.GeofencingApi
+com.google.android.gms.location.GeofencingApi;com.google.android.gms.location.GeofencingApi
+Android.Gms.Location.IGranularity, Xamarin.GooglePlayServices.Location;com.google.android.gms.location.Granularity
+Android.Gms.Location.IGranularity;com.google.android.gms.location.Granularity
+com.google.android.gms.location.Granularity;com.google.android.gms.location.Granularity
+Android.Gms.Location.ILocationListener, Xamarin.GooglePlayServices.Location;com.google.android.gms.location.LocationListener
+Android.Gms.Location.ILocationListener;com.google.android.gms.location.LocationListener
+com.google.android.gms.location.LocationListener;com.google.android.gms.location.LocationListener
+Android.Gms.Location.ILocationListenerImplementor, Xamarin.GooglePlayServices.Location;mono.com.google.android.gms.location.LocationListenerImplementor
+Android.Gms.Location.ILocationListenerImplementor;mono.com.google.android.gms.location.LocationListenerImplementor
+mono.com.google.android.gms.location.LocationListenerImplementor;mono.com.google.android.gms.location.LocationListenerImplementor
+Android.Gms.Location.IPriority, Xamarin.GooglePlayServices.Location;com.google.android.gms.location.Priority
+Android.Gms.Location.IPriority;com.google.android.gms.location.Priority
+com.google.android.gms.location.Priority;com.google.android.gms.location.Priority
+Android.Gms.Location.ISettingsApi, Xamarin.GooglePlayServices.Location;com.google.android.gms.location.SettingsApi
+Android.Gms.Location.ISettingsApi;com.google.android.gms.location.SettingsApi
+com.google.android.gms.location.SettingsApi;com.google.android.gms.location.SettingsApi
 Android.Gms.Maps.GoogleMap+ICancelableCallback, Xamarin.GooglePlayServices.Maps;com.google.android.gms.maps.GoogleMap$CancelableCallback
 Android.Gms.Maps.GoogleMap.ICancelableCallback;com.google.android.gms.maps.GoogleMap$CancelableCallback
 com.google.android.gms.maps.GoogleMap$CancelableCallback;com.google.android.gms.maps.GoogleMap$CancelableCallback
@@ -4138,6 +4192,9 @@ org.jetbrains.annotations.ApiStatus$Internal;org.jetbrains.annotations.ApiStatus
 JetBrains.Annotations.ApiStatus+INonExtendable, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.ApiStatus$NonExtendable
 JetBrains.Annotations.ApiStatus.INonExtendable;org.jetbrains.annotations.ApiStatus$NonExtendable
 org.jetbrains.annotations.ApiStatus$NonExtendable;org.jetbrains.annotations.ApiStatus$NonExtendable
+JetBrains.Annotations.ApiStatus+IObsolete, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.ApiStatus$Obsolete
+JetBrains.Annotations.ApiStatus.IObsolete;org.jetbrains.annotations.ApiStatus$Obsolete
+org.jetbrains.annotations.ApiStatus$Obsolete;org.jetbrains.annotations.ApiStatus$Obsolete
 JetBrains.Annotations.ApiStatus+IOverrideOnly, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.ApiStatus$OverrideOnly
 JetBrains.Annotations.ApiStatus.IOverrideOnly;org.jetbrains.annotations.ApiStatus$OverrideOnly
 org.jetbrains.annotations.ApiStatus$OverrideOnly;org.jetbrains.annotations.ApiStatus$OverrideOnly
@@ -4159,6 +4216,9 @@ org.jetbrains.annotations.Blocking;org.jetbrains.annotations.Blocking
 JetBrains.Annotations.IBlockingExecutor, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.BlockingExecutor
 JetBrains.Annotations.IBlockingExecutor;org.jetbrains.annotations.BlockingExecutor
 org.jetbrains.annotations.BlockingExecutor;org.jetbrains.annotations.BlockingExecutor
+JetBrains.Annotations.ICheckReturnValue, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.CheckReturnValue
+JetBrains.Annotations.ICheckReturnValue;org.jetbrains.annotations.CheckReturnValue
+org.jetbrains.annotations.CheckReturnValue;org.jetbrains.annotations.CheckReturnValue
 JetBrains.Annotations.IContract, Xamarin.Jetbrains.Annotations;org.jetbrains.annotations.Contract
 JetBrains.Annotations.IContract;org.jetbrains.annotations.Contract
 org.jetbrains.annotations.Contract;org.jetbrains.annotations.Contract
@@ -4294,15 +4354,15 @@ kotlin.DeprecatedSinceKotlin;kotlin.DeprecatedSinceKotlin
 Kotlin.IDslMarker, Xamarin.Kotlin.StdLib;kotlin.DslMarker
 Kotlin.IDslMarker;kotlin.DslMarker
 kotlin.DslMarker;kotlin.DslMarker
-Kotlin.IExperimental, Xamarin.Kotlin.StdLib;kotlin.Experimental
-Kotlin.IExperimental;kotlin.Experimental
-kotlin.Experimental;kotlin.Experimental
 Kotlin.IExperimentalMultiplatform, Xamarin.Kotlin.StdLib;kotlin.ExperimentalMultiplatform
 Kotlin.IExperimentalMultiplatform;kotlin.ExperimentalMultiplatform
 kotlin.ExperimentalMultiplatform;kotlin.ExperimentalMultiplatform
 Kotlin.IExperimentalStdlibApi, Xamarin.Kotlin.StdLib;kotlin.ExperimentalStdlibApi
 Kotlin.IExperimentalStdlibApi;kotlin.ExperimentalStdlibApi
 kotlin.ExperimentalStdlibApi;kotlin.ExperimentalStdlibApi
+Kotlin.IExperimentalSubclassOptIn, Xamarin.Kotlin.StdLib;kotlin.ExperimentalSubclassOptIn
+Kotlin.IExperimentalSubclassOptIn;kotlin.ExperimentalSubclassOptIn
+kotlin.ExperimentalSubclassOptIn;kotlin.ExperimentalSubclassOptIn
 Kotlin.IExperimentalUnsignedTypes, Xamarin.Kotlin.StdLib;kotlin.ExperimentalUnsignedTypes
 Kotlin.IExperimentalUnsignedTypes;kotlin.ExperimentalUnsignedTypes
 kotlin.ExperimentalUnsignedTypes;kotlin.ExperimentalUnsignedTypes
@@ -4342,21 +4402,27 @@ kotlin.RequiresOptIn;kotlin.RequiresOptIn
 Kotlin.ISinceKotlin, Xamarin.Kotlin.StdLib;kotlin.SinceKotlin
 Kotlin.ISinceKotlin;kotlin.SinceKotlin
 kotlin.SinceKotlin;kotlin.SinceKotlin
+Kotlin.ISubclassOptInRequired, Xamarin.Kotlin.StdLib;kotlin.SubclassOptInRequired
+Kotlin.ISubclassOptInRequired;kotlin.SubclassOptInRequired
+kotlin.SubclassOptInRequired;kotlin.SubclassOptInRequired
 Kotlin.ISuppress, Xamarin.Kotlin.StdLib;kotlin.Suppress
 Kotlin.ISuppress;kotlin.Suppress
 kotlin.Suppress;kotlin.Suppress
 Kotlin.IUnsafeVariance, Xamarin.Kotlin.StdLib;kotlin.UnsafeVariance
 Kotlin.IUnsafeVariance;kotlin.UnsafeVariance
 kotlin.UnsafeVariance;kotlin.UnsafeVariance
-Kotlin.IUseExperimental, Xamarin.Kotlin.StdLib;kotlin.UseExperimental
-Kotlin.IUseExperimental;kotlin.UseExperimental
-kotlin.UseExperimental;kotlin.UseExperimental
+Kotlin.Time.IComparableTimeMark, Xamarin.Kotlin.StdLib;kotlin.time.ComparableTimeMark
+Kotlin.Time.IComparableTimeMark;kotlin.time.ComparableTimeMark
+kotlin.time.ComparableTimeMark;kotlin.time.ComparableTimeMark
 Kotlin.Time.IExperimentalTime, Xamarin.Kotlin.StdLib;kotlin.time.ExperimentalTime
 Kotlin.Time.IExperimentalTime;kotlin.time.ExperimentalTime
 kotlin.time.ExperimentalTime;kotlin.time.ExperimentalTime
 Kotlin.Time.ITimeMark, Xamarin.Kotlin.StdLib;kotlin.time.TimeMark
 Kotlin.Time.ITimeMark;kotlin.time.TimeMark
 kotlin.time.TimeMark;kotlin.time.TimeMark
+Kotlin.Time.ITimeSourceWithComparableMarks, Xamarin.Kotlin.StdLib;kotlin.time.TimeSource$WithComparableMarks
+Kotlin.Time.ITimeSourceWithComparableMarks;kotlin.time.TimeSource$WithComparableMarks
+kotlin.time.TimeSource$WithComparableMarks;kotlin.time.TimeSource$WithComparableMarks
 Kotlin.Time.ITimeSource, Xamarin.Kotlin.StdLib;kotlin.time.TimeSource
 Kotlin.Time.ITimeSource;kotlin.time.TimeSource
 kotlin.time.TimeSource;kotlin.time.TimeSource
@@ -4486,6 +4552,9 @@ kotlin.jvm.JvmOverloads;kotlin.jvm.JvmOverloads
 Kotlin.Jvm.IJvmRecord, Xamarin.Kotlin.StdLib;kotlin.jvm.JvmRecord
 Kotlin.Jvm.IJvmRecord;kotlin.jvm.JvmRecord
 kotlin.jvm.JvmRecord;kotlin.jvm.JvmRecord
+Kotlin.Jvm.IJvmSerializableLambda, Xamarin.Kotlin.StdLib;kotlin.jvm.JvmSerializableLambda
+Kotlin.Jvm.IJvmSerializableLambda;kotlin.jvm.JvmSerializableLambda
+kotlin.jvm.JvmSerializableLambda;kotlin.jvm.JvmSerializableLambda
 Kotlin.Jvm.IJvmStatic, Xamarin.Kotlin.StdLib;kotlin.jvm.JvmStatic
 Kotlin.Jvm.IJvmStatic;kotlin.jvm.JvmStatic
 kotlin.jvm.JvmStatic;kotlin.jvm.JvmStatic
@@ -4534,6 +4603,9 @@ kotlin.jvm.internal.RepeatableContainer;kotlin.jvm.internal.RepeatableContainer
 Kotlin.Jvm.Internal.ISerializedIr, Xamarin.Kotlin.StdLib;kotlin.jvm.internal.SerializedIr
 Kotlin.Jvm.Internal.ISerializedIr;kotlin.jvm.internal.SerializedIr
 kotlin.jvm.internal.SerializedIr;kotlin.jvm.internal.SerializedIr
+Kotlin.Jvm.Internal.ISourceDebugExtension, Xamarin.Kotlin.StdLib;kotlin.jvm.internal.SourceDebugExtension
+Kotlin.Jvm.Internal.ISourceDebugExtension;kotlin.jvm.internal.SourceDebugExtension
+kotlin.jvm.internal.SourceDebugExtension;kotlin.jvm.internal.SourceDebugExtension
 Kotlin.Jvm.Internal.Markers.IKMappedMarker, Xamarin.Kotlin.StdLib;kotlin.jvm.internal.markers.KMappedMarker
 Kotlin.Jvm.Internal.Markers.IKMappedMarker;kotlin.jvm.internal.markers.KMappedMarker
 kotlin.jvm.internal.markers.KMappedMarker;kotlin.jvm.internal.markers.KMappedMarker
@@ -4636,9 +4708,27 @@ kotlin.jvm.functions.FunctionN;kotlin.jvm.functions.FunctionN
 Kotlin.JS.IExperimentalJsExport, Xamarin.Kotlin.StdLib;kotlin.js.ExperimentalJsExport
 Kotlin.JS.IExperimentalJsExport;kotlin.js.ExperimentalJsExport
 kotlin.js.ExperimentalJsExport;kotlin.js.ExperimentalJsExport
+Kotlin.IO.Path.ICopyActionContext, Xamarin.Kotlin.StdLib;kotlin.io.path.CopyActionContext
+Kotlin.IO.Path.ICopyActionContext;kotlin.io.path.CopyActionContext
+kotlin.io.path.CopyActionContext;kotlin.io.path.CopyActionContext
+Kotlin.IO.Path.IExperimentalPathApi, Xamarin.Kotlin.StdLib;kotlin.io.path.ExperimentalPathApi
+Kotlin.IO.Path.IExperimentalPathApi;kotlin.io.path.ExperimentalPathApi
+kotlin.io.path.ExperimentalPathApi;kotlin.io.path.ExperimentalPathApi
+Kotlin.IO.Path.IFileVisitorBuilder, Xamarin.Kotlin.StdLib;kotlin.io.path.FileVisitorBuilder
+Kotlin.IO.Path.IFileVisitorBuilder;kotlin.io.path.FileVisitorBuilder
+kotlin.io.path.FileVisitorBuilder;kotlin.io.path.FileVisitorBuilder
+Kotlin.Experimental.IExperimentalObjCName, Xamarin.Kotlin.StdLib;kotlin.experimental.ExperimentalObjCName
+Kotlin.Experimental.IExperimentalObjCName;kotlin.experimental.ExperimentalObjCName
+kotlin.experimental.ExperimentalObjCName;kotlin.experimental.ExperimentalObjCName
+Kotlin.Experimental.IExperimentalObjCRefinement, Xamarin.Kotlin.StdLib;kotlin.experimental.ExperimentalObjCRefinement
+Kotlin.Experimental.IExperimentalObjCRefinement;kotlin.experimental.ExperimentalObjCRefinement
+kotlin.experimental.ExperimentalObjCRefinement;kotlin.experimental.ExperimentalObjCRefinement
 Kotlin.Experimental.IExperimentalTypeInference, Xamarin.Kotlin.StdLib;kotlin.experimental.ExperimentalTypeInference
 Kotlin.Experimental.IExperimentalTypeInference;kotlin.experimental.ExperimentalTypeInference
 kotlin.experimental.ExperimentalTypeInference;kotlin.experimental.ExperimentalTypeInference
+Kotlin.Enums.IEnumEntries, Xamarin.Kotlin.StdLib;kotlin.enums.EnumEntries
+Kotlin.Enums.IEnumEntries;kotlin.enums.EnumEntries
+kotlin.enums.EnumEntries;kotlin.enums.EnumEntries
 Kotlin.Coroutines.IContinuation, Xamarin.Kotlin.StdLib;kotlin.coroutines.Continuation
 Kotlin.Coroutines.IContinuation;kotlin.coroutines.Continuation
 kotlin.coroutines.Continuation;kotlin.coroutines.Continuation
@@ -4708,12 +4798,6 @@ kotlin.ranges.OpenEndRange;kotlin.ranges.OpenEndRange
 Kotlin.Collections.IGrouping, Xamarin.Kotlin.StdLib;kotlin.collections.Grouping
 Kotlin.Collections.IGrouping;kotlin.collections.Grouping
 kotlin.collections.Grouping;kotlin.collections.Grouping
-Kotlin.IO.Path.IExperimentalPathApi, Xamarin.Kotlin.StdLib.Jdk7;kotlin.io.path.ExperimentalPathApi
-Kotlin.IO.Path.IExperimentalPathApi;kotlin.io.path.ExperimentalPathApi
-kotlin.io.path.ExperimentalPathApi;kotlin.io.path.ExperimentalPathApi
-Kotlin.IO.Path.IFileVisitorBuilder, Xamarin.Kotlin.StdLib.Jdk7;kotlin.io.path.FileVisitorBuilder
-Kotlin.IO.Path.IFileVisitorBuilder;kotlin.io.path.FileVisitorBuilder
-kotlin.io.path.FileVisitorBuilder;kotlin.io.path.FileVisitorBuilder
 Xamarin.KotlinX.Coroutines.ICancellableContinuation, Xamarin.KotlinX.Coroutines.Core.Jvm;kotlinx.coroutines.CancellableContinuation
 Xamarin.KotlinX.Coroutines.ICancellableContinuation;kotlinx.coroutines.CancellableContinuation
 kotlinx.coroutines.CancellableContinuation;kotlinx.coroutines.CancellableContinuation
