@@ -1,4 +1,6 @@
-﻿using CommunityToolkit.Mvvm.ComponentModel;
+﻿using CommunityToolkit.Maui.Alerts;
+using CommunityToolkit.Maui.Core;
+using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using MAUITraining.Models;
 using MAUITraining.Views;
@@ -69,5 +71,37 @@ namespace MAUITraining.ViewModels
                 Text = uri
             });
         }
+
+        [RelayCommand]
+        public async void ToastNotification(CancellationTokenSource token)
+        {
+            token = new CancellationTokenSource();
+
+            string text = "Toast Me";
+            ToastDuration duration = ToastDuration.Short;
+            double fontSize = 12;
+
+            var toast = Toast.Make(text, duration, fontSize);
+
+            await toast.Show();
+        }
+
+        //[RelayCommand]
+        //public async void SnackbarNotification()
+        //{
+
+        //}
+
+        //[RelayCommand]
+        //public async void Notificationn()
+        //{
+
+        //}
+
+        //[RelayCommand]
+        //public async void PopupNotification()
+        //{
+
+        //}
     }
 }

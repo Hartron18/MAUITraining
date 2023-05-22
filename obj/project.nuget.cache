@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "S3BKHXRGENa9SCs0T5bJ+2aSJBF8x9xZj7G7kgehEQgC6m1Bjao4Fyco6CPSiZaeLmvMZf2G1bxBytIJasettA==",
+  "dgSpecHash": "QISDMQ4vR+Fx5dVyWz/uV7slteZfhcx43vPDgYaA7ERiWpwXSdIma4nSQPsD74DYJ1ZVD/KahILD8nevqpUyjQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\HARTRON\\Desktop\\ProgramApps\\MAUITraining\\MAUITraining.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\HARTRON\\.nuget\\packages\\communitytoolkit.maui\\5.1.0\\communitytoolkit.maui.5.1.0.nupkg.sha512",
+    "C:\\Users\\HARTRON\\.nuget\\packages\\communitytoolkit.maui.core\\5.1.0\\communitytoolkit.maui.core.5.1.0.nupkg.sha512",
     "C:\\Users\\HARTRON\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.0\\communitytoolkit.mvvm.8.2.0.nupkg.sha512",
     "C:\\Users\\HARTRON\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\HARTRON\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",

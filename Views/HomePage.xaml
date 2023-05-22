@@ -22,5 +22,9 @@
     <VerticalStackLayout Spacing="15" Margin="10">
         <Button Text= "Pay" Command="{Binding PayCommand}"/>
         <Button Text= "Share" Command="{Binding ShareLinkCommand}"/>
+        <Button Text= "Toast" Command="{Binding ToastNotificationCommand}" BackgroundColor="Purple"/>
+        <Button Text= "Pop-up" Command="{Binding PopupNotificationCommand}" BackgroundColor="GreenYellow"/>
+        <Button Text= "Snackbar" Command="{Binding SnackbarNotificationCommand}" BackgroundColor="MintCream"/>
+        <Button Text= "LocalNotification" Command="{Binding NotificationnCommand}" BackgroundColor="LightCoral"/>
     </VerticalStackLayout>
 </ContentPage>

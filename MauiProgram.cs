@@ -1,4 +1,5 @@
-﻿using MAUITraining.Models;
+﻿using CommunityToolkit.Maui;
+using MAUITraining.Models;
 using MAUITraining.ViewModels;
 using MAUITraining.Views;
 using Microsoft.Extensions.Logging;
@@ -14,12 +15,13 @@ public static class MauiProgram
 		var builder = MauiApp.CreateBuilder();
 		builder
 			.UseMauiApp<App>()
-			.ConfigureFonts(fonts =>
+            .ConfigureFonts(fonts =>
 			{
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			})
-			.UseMauiMaps();
+			.UseMauiMaps()
+            .UseMauiCommunityToolkit();
 		if (!DeviceInfo.Platform.Equals(DevicePlatform.WinUI))
 		{
             builder.Services.AddSingleton(typeof(IFingerprint), CrossFingerprint.Current);
