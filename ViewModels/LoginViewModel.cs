@@ -42,6 +42,7 @@ namespace MAUITraining.ViewModels
             Login = new();
         }
 
+        [RelayCommand]
         public async Task LogIn()
         {
             
@@ -54,7 +55,7 @@ namespace MAUITraining.ViewModels
                 string json = JsonConvert.SerializeObject(Login);
                 StringContent content = new(json, Encoding.UTF8, "application/json");
 
-                string baseUrl = "https://fr4c3dn5-5001.uks1.devtunnels.ms/";
+                string baseUrl = "https://54slpv6x-5001.uks1.devtunnels.ms/";
 
                 HttpResponseMessage response = await _httpClient.PostAsync($"{baseUrl}api/User/login", content);
 
@@ -75,18 +76,29 @@ namespace MAUITraining.ViewModels
         }
 
         [RelayCommand]
-        private async void OnBiometric()
+        protected async void OnBiometric()
         {
-            var request = new AuthenticationRequestConfiguration("Fingerprint validation", "Validate with your fingerprint");
-            var result = await fingerprint.AuthenticateAsync(request);
+            bool isAvailable = await fingerprint.IsAvailableAsync();
 
-            if (result.Authenticated)
+            if (isAvailable)
             {
-                await Shell.Current.DisplayAlert("Authentication Successful", "Access Granted", "Continue");
-                await Shell.Current.GoToAsync(nameof(HomePage));
-            }
+                var request = new AuthenticationRequestConfiguration("Fingerprint validation", "Validate with your fingerprint")
+                {
+                    FallbackTitle = "Use Pin",
+                    AllowAlternativeAuthentication = true
+                };
+                var result = await fingerprint.AuthenticateAsync(request);
 
-            await Shell.Current.DisplayAlert("Authentication failed", "Access Denied", "Try again");
+                if (result.Authenticated)
+                {
+                    //await Shell.Current.DisplayAlert("Authentication Successful", "Access Granted", "Continue");
+                    await Shell.Current.GoToAsync(nameof(PaymentPage));
+                }
+                else
+                {
+                    await Shell.Current.DisplayAlert("Authentication failed", "Access Denied", "Try again or login with email");
+                }
+            }  
         }
     }
 }

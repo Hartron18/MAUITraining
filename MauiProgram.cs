@@ -1,4 +1,6 @@
 ﻿using MAUITraining.Models;
+using MAUITraining.ViewModels;
+using MAUITraining.Views;
 using Microsoft.Extensions.Logging;
 using Plugin.Fingerprint;
 using Plugin.Fingerprint.Abstractions;
@@ -16,8 +18,14 @@ public static class MauiProgram
 			{
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
-			});
-		builder.Services.AddSingleton(typeof(IFingerprint), CrossFingerprint.Current);
+			})
+			.UseMauiMaps();
+		if (!DeviceInfo.Platform.Equals(DevicePlatform.WinUI))
+		{
+            builder.Services.AddSingleton(typeof(IFingerprint), CrossFingerprint.Current);
+        }
+		
+
 		
 
 #if DEBUG

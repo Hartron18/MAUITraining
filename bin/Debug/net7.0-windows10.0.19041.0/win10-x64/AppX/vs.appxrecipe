@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-12T13:03:02.195</Modified>
+      <Modified>2023-05-18T14:41:21.415</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-05-12T13:03:01.317</Modified>
+      <Modified>2023-05-18T14:41:18.207</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MAUITraining.runtimeconfig.json">
       <PackagePath>MAUITraining.runtimeconfig.json</PackagePath>
-      <Modified>2023-05-12T13:03:00.310</Modified>
+      <Modified>2023-05-18T14:28:25.544</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MAUITraining.dll">
       <PackagePath>MAUITraining.dll</PackagePath>
-      <Modified>2023-05-12T13:02:53.363</Modified>
+      <Modified>2023-05-18T14:41:13.424</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MAUITraining.exe</PackagePath>
-      <Modified>2023-05-12T13:02:53.425</Modified>
+      <Modified>2023-05-18T14:41:13.460</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.5\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -849,6 +849,10 @@
       <PackagePath>Microsoft.Graphics.Canvas.Interop.dll</PackagePath>
       <Modified>2022-10-04T20:36:56.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\HARTRON\.nuget\packages\microsoft.maui.controls.maps\7.0.86\lib\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Maps.dll">
+      <PackagePath>Microsoft.Maui.Controls.Maps.dll</PackagePath>
+      <Modified>2023-04-25T16:33:44.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\.nuget\packages\microsoft.maui.graphics\7.0.59\lib\net7.0-windows10.0.19041\Microsoft.Maui.Graphics.dll">
       <PackagePath>Microsoft.Maui.Graphics.dll</PackagePath>
       <Modified>2023-01-19T17:23:52.000</Modified>
@@ -856,6 +860,10 @@
     <AppxPackagedFile Include="C:\Users\HARTRON\.nuget\packages\microsoft.maui.graphics.win2d.winui.desktop\7.0.59\lib\net7.0-windows10.0.19041\Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll">
       <PackagePath>Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll</PackagePath>
       <Modified>2023-01-19T17:24:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\HARTRON\.nuget\packages\microsoft.maui.maps\7.0.86\lib\net7.0-windows10.0.19041\Microsoft.Maui.Maps.dll">
+      <PackagePath>Microsoft.Maui.Maps.dll</PackagePath>
+      <Modified>2023-04-25T16:33:42.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\lib\net6.0-windows10.0.18362.0\Microsoft.InteractiveExperiences.Projection.dll">
       <PackagePath>Microsoft.InteractiveExperiences.Projection.dll</PackagePath>
@@ -917,6 +925,10 @@
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
       <Modified>2023-03-08T07:09:54.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\HARTRON\.nuget\packages\plugin.fingerprint\2.1.5\lib\netstandard2.0\Plugin.Fingerprint.dll">
+      <PackagePath>Plugin.Fingerprint.dll</PackagePath>
+      <Modified>2022-01-22T16:40:52.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\.nuget\packages\microsoft.graphics.win2d\1.0.4\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
       <Modified>2022-10-04T20:41:34.000</Modified>
@@ -927,7 +939,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MAUITraining.deps.json">
       <PackagePath>MAUITraining.deps.json</PackagePath>
-      <Modified>2023-05-12T13:03:01.893</Modified>
+      <Modified>2023-05-18T14:41:20.953</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.59\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -947,23 +959,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2023-05-12T13:02:50.702</Modified>
+      <Modified>2023-05-18T10:51:33.518</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2023-05-12T13:02:50.733</Modified>
+      <Modified>2023-05-18T10:51:33.589</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2023-05-12T13:02:50.802</Modified>
+      <Modified>2023-05-18T10:51:33.764</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2023-05-12T13:02:50.913</Modified>
+      <Modified>2023-05-18T10:51:33.903</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2023-05-12T13:02:51.292</Modified>
+      <Modified>2023-05-18T10:51:34.384</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -975,207 +987,207 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2023-05-12T13:02:51.593</Modified>
+      <Modified>2023-05-18T10:51:35.157</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2023-05-12T13:02:52.431</Modified>
+      <Modified>2023-05-18T10:51:36.565</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2023-05-12T13:02:52.456</Modified>
+      <Modified>2023-05-18T10:51:36.616</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2023-05-12T13:02:52.477</Modified>
+      <Modified>2023-05-18T10:51:36.661</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2023-05-12T13:02:52.514</Modified>
+      <Modified>2023-05-18T10:51:36.723</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2023-05-12T13:02:52.645</Modified>
+      <Modified>2023-05-18T10:51:36.924</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2023-05-12T13:02:51.934</Modified>
+      <Modified>2023-05-18T10:51:35.539</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2023-05-12T13:02:51.941</Modified>
+      <Modified>2023-05-18T10:51:35.590</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2023-05-12T13:02:51.972</Modified>
+      <Modified>2023-05-18T10:51:35.665</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2023-05-12T13:02:51.949</Modified>
+      <Modified>2023-05-18T10:51:35.607</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2023-05-12T13:02:51.956</Modified>
+      <Modified>2023-05-18T10:51:35.624</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2023-05-12T13:02:51.861</Modified>
+      <Modified>2023-05-18T10:51:35.371</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2023-05-12T13:02:51.867</Modified>
+      <Modified>2023-05-18T10:51:35.379</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2023-05-12T13:02:51.915</Modified>
+      <Modified>2023-05-18T10:51:35.512</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2023-05-12T13:02:51.880</Modified>
+      <Modified>2023-05-18T10:51:35.391</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2023-05-12T13:02:51.892</Modified>
+      <Modified>2023-05-18T10:51:35.407</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2023-05-12T13:02:51.617</Modified>
+      <Modified>2023-05-18T10:51:35.206</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2023-05-12T13:02:51.631</Modified>
+      <Modified>2023-05-18T10:51:35.221</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2023-05-12T13:02:51.646</Modified>
+      <Modified>2023-05-18T10:51:35.231</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2023-05-12T13:02:51.653</Modified>
+      <Modified>2023-05-18T10:51:35.239</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2023-05-12T13:02:51.666</Modified>
+      <Modified>2023-05-18T10:51:35.265</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2023-05-12T13:02:51.683</Modified>
+      <Modified>2023-05-18T10:51:35.280</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2023-05-12T13:02:51.702</Modified>
+      <Modified>2023-05-18T10:51:35.304</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2023-05-12T13:02:51.852</Modified>
+      <Modified>2023-05-18T10:51:35.347</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2023-05-12T13:02:51.709</Modified>
+      <Modified>2023-05-18T10:51:35.318</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2023-05-12T13:02:51.830</Modified>
+      <Modified>2023-05-18T10:51:35.330</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2023-05-12T13:02:52.192</Modified>
+      <Modified>2023-05-18T10:51:35.938</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2023-05-12T13:02:52.201</Modified>
+      <Modified>2023-05-18T10:51:35.959</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2023-05-12T13:02:52.214</Modified>
+      <Modified>2023-05-18T10:51:35.988</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2023-05-12T13:02:52.234</Modified>
+      <Modified>2023-05-18T10:51:36.021</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2023-05-12T13:02:52.267</Modified>
+      <Modified>2023-05-18T10:51:36.195</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2023-05-12T13:02:52.030</Modified>
+      <Modified>2023-05-18T10:51:35.861</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2023-05-12T13:02:52.039</Modified>
+      <Modified>2023-05-18T10:51:35.871</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2023-05-12T13:02:52.050</Modified>
+      <Modified>2023-05-18T10:51:35.886</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2023-05-12T13:02:52.064</Modified>
+      <Modified>2023-05-18T10:51:35.899</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2023-05-12T13:02:52.183</Modified>
+      <Modified>2023-05-18T10:51:35.925</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-05-12T13:02:51.980</Modified>
+      <Modified>2023-05-18T10:51:35.687</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-05-12T13:02:51.996</Modified>
+      <Modified>2023-05-18T10:51:35.800</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-05-12T13:02:52.004</Modified>
+      <Modified>2023-05-18T10:51:35.815</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-05-12T13:02:52.010</Modified>
+      <Modified>2023-05-18T10:51:35.825</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-05-12T13:02:52.020</Modified>
+      <Modified>2023-05-18T10:51:35.848</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2023-05-12T13:02:52.281</Modified>
+      <Modified>2023-05-18T10:51:36.224</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2023-05-12T13:02:52.301</Modified>
+      <Modified>2023-05-18T10:51:36.246</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2023-05-12T13:02:52.323</Modified>
+      <Modified>2023-05-18T10:51:36.282</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2023-05-12T13:02:52.351</Modified>
+      <Modified>2023-05-18T10:51:36.328</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2023-05-12T13:02:52.415</Modified>
+      <Modified>2023-05-18T10:51:36.528</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2023-05-12T13:02:51.655</Modified>
+      <Modified>2023-05-18T10:51:34.989</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2023-05-12T13:02:51.699</Modified>
+      <Modified>2023-05-18T10:51:35.019</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2023-05-12T13:02:51.843</Modified>
+      <Modified>2023-05-18T10:51:35.046</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2023-05-12T13:02:51.902</Modified>
+      <Modified>2023-05-18T10:51:35.083</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2023-05-12T13:02:52.002</Modified>
+      <Modified>2023-05-18T10:51:35.163</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\icon_about.scale-100.png">
       <PackagePath>icon_about.scale-100.png</PackagePath>

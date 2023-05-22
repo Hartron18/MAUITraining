@@ -22,12 +22,12 @@
                 </Frame>
                 
 
-                <Button Text="LogIn" Command="{Binding LogInCommand}" HeightRequest="25"/>
+                <Button Text="LogIn" Command="{Binding LogInCommand}"/>
 
                 <Label Text="Dont have an account? Click to SignUp"/>
 
                 <Button Text="Login with Finger print" SemanticProperties.Hint="Click to authenticate with your fingerprint" 
-                            Command="{Binding OnBiometricCommand}" FontAttributes="Bold"/>
+                            Command="{Binding BiometricCommand}" FontAttributes="Bold"/>
 
 
             </VerticalStackLayout>

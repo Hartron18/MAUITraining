@@ -80,11 +80,23 @@ build_metadata.AdditionalFiles.ManifestResourceName = MAUITraining.Views.HomePag
 build_metadata.AdditionalFiles.TargetPath = Views\HomePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\HomePage.xaml
 
+[C:/Users/HARTRON/Desktop/ProgramApps/MAUITraining/Views/MapsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUITraining.Views.MapsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MapsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MapsPage.xaml
+
 [C:/Users/HARTRON/Desktop/ProgramApps/MAUITraining/Views/NotesPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MAUITraining.Views.NotesPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\NotesPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\NotesPage.xaml
+
+[C:/Users/HARTRON/Desktop/ProgramApps/MAUITraining/Views/PayStackPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUITraining.Views.PayStackPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\PayStackPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\PayStackPage.xaml
 
 [C:/Users/HARTRON/Desktop/ProgramApps/MAUITraining/Views/UserLoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

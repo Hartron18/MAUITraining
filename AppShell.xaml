@@ -20,12 +20,7 @@
         <ToolbarItem Text="Add" Command="{Binding NewCommand}" IconImageSource="{FontImage Glyph='+', Color=White, Size=25}" />
         <ToolbarItem Text="Add" Command="{Binding NewCommand}" IconImageSource="{FontImage Glyph='-', Color=White, Size=25}" />
     </Shell.ToolbarItems>
-    <!--<Shell.Style>
-        <Style TargetType="">
-            
-        </Style>
-    </Shell.Style>-->
-
+   
 
 
         <TabBar>
@@ -35,12 +30,12 @@
             ContentTemplate="{DataTemplate views:HomePage}"
             Icon="{OnPlatform 'icon_notes.png', iOS='icon_notes_ios.png' }"/>
         <ShellContent
-            Title="SignUp"
-            ContentTemplate="{DataTemplate views:UserSignUpPage}"
+            Title="Login"
+            ContentTemplate="{DataTemplate views:UserLoginPage}"
             Icon="{OnPlatform 'icon_notes.png', iOS='icon_notes_ios.png' }"/>
         <ShellContent
-            Title="Market"
-            ContentTemplate="{DataTemplate views:AccesstoMarketPage}"
+            Title="Map"
+            ContentTemplate="{DataTemplate views:MapsPage}"
             Icon="{OnPlatform 'icon_notes.png', iOS='icon_notes_ios.png' }"/>
 
         <ShellContent

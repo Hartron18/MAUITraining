@@ -2,7 +2,12 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MAUITraining.Views.HomePage"
+             xmlns:viewmodel="clr-namespace:MAUITraining.ViewModels"
+             
              Title="Home">
+    <ContentPage.BindingContext>
+        <viewmodel:PaymentViewModel></viewmodel:PaymentViewModel>
+    </ContentPage.BindingContext>
     <!--<Shell.TitleView>
         <Grid>
             <Label Text="Home" TextColor="Yellow" FontSize="Large"/>
@@ -14,10 +19,8 @@
         <ToolbarItem Text="Add" Command="{Binding NewCommand}" IconImageSource="{FontImage Glyph='+', Color=White, Size=25}" />
         <ToolbarItem Text="Add" Command="{Binding NewCommand}" IconImageSource="{FontImage Glyph='-', Color=White, Size=25}" />
     </ContentPage.ToolbarItems>-->
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+    <VerticalStackLayout Spacing="15" Margin="10">
+        <Button Text= "Pay" Command="{Binding PayCommand}"/>
+        <Button Text= "Share" Command="{Binding ShareLinkCommand}"/>
     </VerticalStackLayout>
 </ContentPage>

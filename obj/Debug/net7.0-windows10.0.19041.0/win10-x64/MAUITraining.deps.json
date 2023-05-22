@@ -15,6 +15,7 @@
           "Microsoft.Extensions.Logging": "7.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "7.0.0",
           "Microsoft.Extensions.Logging.Debug": "7.0.0",
+          "Microsoft.Maui.Controls.Maps": "7.0.86",
           "Microsoft.Maui.Graphics": "7.0.59",
           "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop": "7.0.59",
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.755",
@@ -916,6 +917,17 @@
           }
         }
       },
+      "Microsoft.Maui.Controls.Maps/7.0.86": {
+        "dependencies": {
+          "Microsoft.Maui.Maps": "7.0.86"
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/Microsoft.Maui.Controls.Maps.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "7.0.70.16"
+          }
+        }
+      },
       "Microsoft.Maui.Graphics/7.0.59": {
         "runtime": {
           "lib/net7.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
@@ -934,6 +946,14 @@
           "lib/net7.0-windows10.0.19041/Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "7.0.59.0"
+          }
+        }
+      },
+      "Microsoft.Maui.Maps/7.0.86": {
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/Microsoft.Maui.Maps.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "7.0.70.16"
           }
         }
       },
@@ -1132,6 +1152,13 @@
       "path": "microsoft.graphics.win2d/1.0.4",
       "hashPath": "microsoft.graphics.win2d.1.0.4.nupkg.sha512"
     },
+    "Microsoft.Maui.Controls.Maps/7.0.86": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JhaaGF8eXjM2N9FAvaWEAcai536wMCmaLQVS+mfSf4akPtFRcyf+acobVPaT/s1VKurvnKRI5+UliPkNm5SGrg==",
+      "path": "microsoft.maui.controls.maps/7.0.86",
+      "hashPath": "microsoft.maui.controls.maps.7.0.86.nupkg.sha512"
+    },
     "Microsoft.Maui.Graphics/7.0.59": {
       "type": "package",
       "serviceable": true,
@@ -1145,6 +1172,13 @@
       "sha512": "sha512-ExNm2DreudUpAESDCpmFqruINxrjgpNOl+80GjCp/yoFv6QX3exYBmrFZ2zWSb7RrvWJnBPN9SaOHbkpT2+x2A==",
       "path": "microsoft.maui.graphics.win2d.winui.desktop/7.0.59",
       "hashPath": "microsoft.maui.graphics.win2d.winui.desktop.7.0.59.nupkg.sha512"
+    },
+    "Microsoft.Maui.Maps/7.0.86": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gmdeuRjeXt1GD3ko3CtJ7URPDKtVCrbkw5o65im0jhc+z1t2xeMR3uKklXZpXoHG/KqdWbl1p7qN1WI8K+Dbww==",
+      "path": "microsoft.maui.maps/7.0.86",
+      "hashPath": "microsoft.maui.maps.7.0.86.nupkg.sha512"
     },
     "Microsoft.Windows.SDK.BuildTools/10.0.22621.755": {
       "type": "package",
