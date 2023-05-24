@@ -4,6 +4,15 @@
         <name>MAUITraining</name>
     </assembly>
     <members>
+        <member name="T:MAUITraining.ViewModels.AppShellViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="F:MAUITraining.ViewModels.AppShellViewModel.imageClickedCommand">
+            <summary>The backing field for <see cref="P:MAUITraining.ViewModels.AppShellViewModel.ImageClickedCommand"/>.</summary>
+        </member>
+        <member name="P:MAUITraining.ViewModels.AppShellViewModel.ImageClickedCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MAUITraining.ViewModels.AppShellViewModel.OnImageClicked"/>.</summary>
+        </member>
         <member name="T:MAUITraining.ViewModels.LoginViewModel">
             <inheritdoc/>
             <inheritdoc/>

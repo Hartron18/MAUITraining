@@ -98,11 +98,23 @@ build_metadata.AdditionalFiles.ManifestResourceName = MAUITraining.Views.PayStac
 build_metadata.AdditionalFiles.TargetPath = Views\PayStackPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\PayStackPage.xaml
 
+[C:/Users/HARTRON/Desktop/ProgramApps/MAUITraining/Views/QrCodePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUITraining.Views.QrCodePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\QrCodePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\QrCodePage.xaml
+
 [C:/Users/HARTRON/Desktop/ProgramApps/MAUITraining/Views/UserLoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MAUITraining.Views.UserLoginPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\UserLoginPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\UserLoginPage.xaml
+
+[C:/Users/HARTRON/Desktop/ProgramApps/MAUITraining/Views/UserProfilePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUITraining.Views.UserProfilePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\UserProfilePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\UserProfilePage.xaml
 
 [C:/Users/HARTRON/Desktop/ProgramApps/MAUITraining/Views/UserSignUpPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

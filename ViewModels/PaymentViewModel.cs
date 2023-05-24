@@ -149,5 +149,7 @@ namespace MAUITraining.ViewModels
 
             await LocalNotificationCenter.Current.Show(request);
         }
+
+        
     }
 }

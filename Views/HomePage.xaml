@@ -8,6 +8,8 @@
     <ContentPage.BindingContext>
         <viewmodel:PaymentViewModel></viewmodel:PaymentViewModel>
     </ContentPage.BindingContext>
+    
+    
     <!--<Shell.TitleView>
         <Grid>
             <Label Text="Home" TextColor="Yellow" FontSize="Large"/>

@@ -34,5 +34,15 @@
 	<string>The app requires permission to access your location</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>New Entry</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Allow access to your camera</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>Allow access to your media library</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Allow access for audio recording</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Allow access to your photos</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Allow access to use your photos</string>
 </dict>
 </plist>

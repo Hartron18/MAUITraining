@@ -886,6 +886,18 @@
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\avatar.scale-100.png">
+      <PackagePath>avatar.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\avatar_ios.scale-100.png">
+      <PackagePath>avatar_ios.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\camera.scale-100.png">
+      <PackagePath>camera.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\camera_ios.scale-100.png">
+      <PackagePath>camera_ios.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
     </AppxPackagedFile>

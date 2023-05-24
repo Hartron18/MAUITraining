@@ -30,8 +30,8 @@ public static class MauiProgram
 		{
             builder.Services.AddSingleton(typeof(IFingerprint), CrossFingerprint.Current);
         }
-		
 
+		//builder.Services.AddSingleton(typeof(AppShellViewModel));
 		
 
 #if DEBUG

@@ -1,6 +1,8 @@
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-ios\iossimulator-x64\MAUITraining.runtimeconfig.json
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-ios\iossimulator-x64\MAUITraining.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-ios\iossimulator-x64\MAUITraining.pdb
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-ios\iossimulator-x64\CommunityToolkit.Maui.dll
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-ios\iossimulator-x64\CommunityToolkit.Maui.Core.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-ios\iossimulator-x64\CommunityToolkit.Mvvm.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.Extensions.Configuration.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.Extensions.Configuration.Abstractions.dll
@@ -11,8 +13,12 @@ C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-ios\iossimula
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.Extensions.Logging.Debug.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.Extensions.Options.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.Extensions.Primitives.dll
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.Maui.Controls.Maps.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.Maui.Graphics.dll
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.Maui.Maps.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-ios\iossimulator-x64\Newtonsoft.Json.dll
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-ios\iossimulator-x64\Plugin.Fingerprint.dll
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-ios\iossimulator-x64\Plugin.LocalNotification.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.CSharp.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.VisualBasic.Core.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.VisualBasic.dll
@@ -239,6 +245,10 @@ C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-ios\iossimula
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot.png
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot@2x.png
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot@3x.png
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\Resources\avatar.png
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\Resources\avatar_ios.png
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\Resources\camera.png
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\Resources\camera_ios.png
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\Resources\icon_about.png
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\Resources\icon_about_ios.png
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\Resources\icon_notes.png
@@ -273,9 +283,4 @@ C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-ios\iossimula
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-ios\iossimulator-x64\MAUITraining.pdb
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-ios\iossimulator-x64\MAUITraining.genruntimeconfig.cache
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-ios\iossimulator-x64\ref\MAUITraining.dll
-C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-ios\iossimulator-x64\Plugin.Fingerprint.dll
-C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.Maui.Controls.Maps.dll
-C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.Maui.Maps.dll
-C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-ios\iossimulator-x64\CommunityToolkit.Maui.dll
-C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-ios\iossimulator-x64\CommunityToolkit.Maui.Core.dll
-C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-ios\iossimulator-x64\Plugin.LocalNotification.dll
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-ios\iossimulator-x64\build-signature\signature

@@ -49,6 +49,14 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Remove="UserProfilePage.xaml.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Remove="Resources\Images\Avatar.png" />
+	  <None Remove="Resources\Images\avatar_ios.png" />
+	  <None Remove="Resources\Images\Camera.png" />
+	  <None Remove="Resources\Images\camera_ios.png" />
 	  <None Remove="Resources\Images\Image1.png" />
 	</ItemGroup>
 
@@ -98,6 +106,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\UserLoginPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\UserProfilePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\UserSignUpPage.xaml">
