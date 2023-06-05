@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<StackLayout xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Name="CarouselCtrl"
+              xmlns:Carousel="clr-namespace:MAUITraining.Models"
+              x:DataType="Carousel:CarouselDetails"
+             x:Class="MAUITraining.CustomControls.Carousell">
+
+    <CarouselView Loop="False" x:Name="Carousel" IndicatorView="Indicator" >
+        <CarouselView.ItemsLayout>
+            <LinearItemsLayout ItemSpacing="10" Orientation="Horizontal"/>
+        </CarouselView.ItemsLayout>
+
+        <CarouselView.ItemTemplate >
+            <DataTemplate x:Name="Template">
+                
+                <Grid x:Name=" TemlateGrid" RowDefinitions=".75*,.25" Margin="0"  Padding="25" >
+                    <VisualStateManager.VisualStateGroups>
+                        <VisualStateGroup x:Name="Scaled">
+                            <VisualState x:Name="CurrentItem">
+                                <VisualState.Setters>
+                                    <Setter Property="Scale" Value="1.1"/>
+                                </VisualState.Setters>
+                            </VisualState>
+                            <VisualState x:Name="PreviousItem">
+                                <VisualState.Setters>
+                                    <Setter Property="Opacity" Value="0.5"/>
+                                </VisualState.Setters>
+                            </VisualState>
+                            <VisualState x:Name="NextItem">
+                                <VisualState.Setters>
+                                    <Setter Property="Opacity" Value="0.5"/>
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateManager.VisualStateGroups>
+                    <Frame HeightRequest="200" Margin="0" Padding="0">
+                        <Image x:Name="CarouselImage" Source="{Binding ImageUrl}" Aspect="AspectFill"/>
+                    </Frame>
+
+                    <HorizontalStackLayout x:Name="Layoutt" Grid.Row="1" Margin="5,-50, 5, 5" HorizontalOptions="Fill" Spacing="80">
+                        <VerticalStackLayout>
+                            <Label x:Name="Title" Text="{Binding Title}" FontSize="Title"/>
+                            <Label x:Name="Description" Text="{Binding Description}" FontSize="Caption"/>
+                        </VerticalStackLayout>
+                        <Button x:Name="CarouselNav"  Text="Click to find out" BackgroundColor="Chocolate" TextColor="AntiqueWhite"/>
+                    </HorizontalStackLayout>
+                    
+
+                </Grid>
+
+            </DataTemplate>
+        </CarouselView.ItemTemplate>
+    </CarouselView>
+    <IndicatorView x:Name="Indicator" IndicatorColor="AliceBlue" SelectedIndicatorColor="Blue" Margin="3" HorizontalOptions="Center"></IndicatorView>
+   
+</StackLayout>
+
+
+

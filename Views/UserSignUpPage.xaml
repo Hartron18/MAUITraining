@@ -3,11 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MAUITraining.Views.UserSignUpPage"
              xmlns:viewModels="clr-namespace:MAUITraining.ViewModels"
+             
              Title="SignUp">
     <ContentPage.BindingContext>
         <viewModels:SignUpViewModel></viewModels:SignUpViewModel>
     </ContentPage.BindingContext>
-    <Grid RowDefinitions="1*, 20*, 1*"
+    <Grid RowDefinitions="1*, 7*, 2*"
           Margin="15"
           Padding="10">
         <Frame Grid.Row="1" BackgroundColor="GhostWhite">
@@ -29,7 +30,12 @@
 
                     <Button Text="SignUp" Command="{Binding SignUpCommand}" FontAttributes="Bold" Padding="10"/>
 
-                    <Label Text="Already have an account? Click to LogIn"/>
+                    <Frame Margin="0">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding LoginPageCommand}"></TapGestureRecognizer>
+                        </Frame.GestureRecognizers>
+                        <Label Text="Already have an account? Click to LogIn"/>
+                    </Frame>
 
                     
 

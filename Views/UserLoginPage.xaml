@@ -3,14 +3,17 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MAUITraining.Views.UserLoginPage"
              xmlns:viewModels ="clr-namespace:MAUITraining.ViewModels"
+             x:Name="LogInPage"
+             
              Title="LogIn">
     <ContentPage.BindingContext>
         <viewModels:LoginViewModel></viewModels:LoginViewModel>
     </ContentPage.BindingContext>
-    <Grid RowDefinitions="1*, 18*, 1*"
+    <Grid RowDefinitions="1*, 6*, 2*"
           Margin="15"
           Padding="10">
-        <Frame Grid.Row="1" BackgroundColor="GhostWhite">
+        <Frame Grid.Row="1" BackgroundColor="GhostWhite"
+               >
             <VerticalStackLayout Spacing="20">
                 <Label Text="LogIn" FontSize="28" FontAttributes="Bold"/>
 
@@ -24,7 +27,13 @@
 
                 <Button Text="LogIn" Command="{Binding LogInCommand}"/>
 
-                <Label Text="Dont have an account? Click to SignUp"/>
+                <Frame Margin="0">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding SignUpPageCommand}"></TapGestureRecognizer>
+                    </Frame.GestureRecognizers>
+                    <Label Text="Dont have an account? Click to SignUp"/>
+                </Frame>
+                
 
                 <Button Text="Login with Finger print" SemanticProperties.Hint="Click to authenticate with your fingerprint" 
                             Command="{Binding BiometricCommand}" FontAttributes="Bold"/>

@@ -2,11 +2,18 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MAUITraining.Views.AccesstoTrainingPage"
+             xmlns:cv="clr-namespace:Camera.MAUI;assembly=Camera.MAUI"
+             xmlns:cView="clr-namespace:MAUITraining.ViewModels"
              Title="AccesstoTrainingPage">
+    <!--<ContentPage.BindingContext>
+        <cView:TrainingViewModel></cView:TrainingViewModel>
+    </ContentPage.BindingContext>-->
+
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <!--x:FieldModifier="{Binding Labell}"-->
+        <Label  x:Name="BarCodeDiplay" ></Label>
+        <!--x:FieldModifier="{Binding CameraView}-->
+        <cv:CameraView x:Name="BarCodecam" WidthRequest="300" HeightRequest="300" CamerasLoaded="CameraLoaded"
+                       BarCodeDetectionEnabled="True" BarcodeDetected="BarCodeDetected"/>
     </VerticalStackLayout>
 </ContentPage>

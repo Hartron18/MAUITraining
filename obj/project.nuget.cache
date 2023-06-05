@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "SOyTsVseA/vIMiEyI+IMvTRHUQZ/gfzWy3TjS/7msUfu7rV+ulRyhan9NU9YKmfLp4djRTFlozkLuwR5xS+euQ==",
+  "dgSpecHash": "ZaoFHwCsO1qcduG4ZeRITM/ogcVaSlI6ZH4xskU88Dys7v2UuqATaGluLU0RpMTR9F3R32uqi+K4vGWZHe53TQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\HARTRON\\Desktop\\ProgramApps\\MAUITraining\\MAUITraining.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\HARTRON\\.nuget\\packages\\camera.maui\\1.4.3\\camera.maui.1.4.3.nupkg.sha512",
     "C:\\Users\\HARTRON\\.nuget\\packages\\communitytoolkit.maui\\5.1.0\\communitytoolkit.maui.5.1.0.nupkg.sha512",
     "C:\\Users\\HARTRON\\.nuget\\packages\\communitytoolkit.maui.core\\5.1.0\\communitytoolkit.maui.core.5.1.0.nupkg.sha512",
     "C:\\Users\\HARTRON\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.0\\communitytoolkit.mvvm.8.2.0.nupkg.sha512",
@@ -115,6 +116,7 @@
     "C:\\Users\\HARTRON\\.nuget\\packages\\xamarin.kotlin.stdlib.jdk8\\1.8.0.1\\xamarin.kotlin.stdlib.jdk8.1.8.0.1.nupkg.sha512",
     "C:\\Users\\HARTRON\\.nuget\\packages\\xamarin.kotlinx.coroutines.android\\1.6.4.2\\xamarin.kotlinx.coroutines.android.1.6.4.2.nupkg.sha512",
     "C:\\Users\\HARTRON\\.nuget\\packages\\xamarin.kotlinx.coroutines.core.jvm\\1.6.4.2\\xamarin.kotlinx.coroutines.core.jvm.1.6.4.2.nupkg.sha512",
+    "C:\\Users\\HARTRON\\.nuget\\packages\\zxing.net\\0.16.9\\zxing.net.0.16.9.nupkg.sha512",
     "C:\\Users\\HARTRON\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.28\\microsoft.windows.sdk.net.ref.10.0.19041.28.nupkg.sha512",
     "C:\\Users\\HARTRON\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.5\\microsoft.aspnetcore.app.runtime.win-x64.7.0.5.nupkg.sha512",
     "C:\\Users\\HARTRON\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.5\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.5.nupkg.sha512",

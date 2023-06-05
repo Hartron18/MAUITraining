@@ -604,6 +604,9 @@
     <AppxPackagedFile Include="C:\Users\HARTRON\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.28\lib\net6.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\HARTRON\.nuget\packages\camera.maui\1.4.3\lib\net7.0-windows10.0.19041\Camera.MAUI.dll">
+      <PackagePath>Camera.MAUI.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\.nuget\packages\communitytoolkit.maui\5.1.0\lib\net7.0-windows10.0.19041\CommunityToolkit.Maui.dll">
       <PackagePath>CommunityToolkit.Maui.dll</PackagePath>
     </AppxPackagedFile>
@@ -705,6 +708,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\.nuget\packages\plugin.localnotification\10.1.5\lib\net7.0\Plugin.LocalNotification.dll">
       <PackagePath>Plugin.LocalNotification.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\HARTRON\.nuget\packages\zxing.net\0.16.9\lib\net7.0\zxing.dll">
+      <PackagePath>zxing.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\.nuget\packages\microsoft.graphics.win2d\1.0.4\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>

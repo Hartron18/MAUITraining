@@ -1,4 +1,5 @@
-﻿using CommunityToolkit.Maui;
+﻿using Camera.MAUI;
+using CommunityToolkit.Maui;
 using MAUITraining.Models;
 using MAUITraining.ViewModels;
 using MAUITraining.Views;
@@ -6,6 +7,8 @@ using Microsoft.Extensions.Logging;
 using Plugin.Fingerprint;
 using Plugin.Fingerprint.Abstractions;
 using Plugin.LocalNotification;
+using static Camera.MAUI.CameraView;
+using MAUITraining.ViewModels;
 
 namespace MAUITraining;
 
@@ -23,7 +26,8 @@ public static class MauiProgram
 			})
 			.UseMauiMaps()
             .UseMauiCommunityToolkit()
-			.UseLocalNotification();
+			.UseLocalNotification()
+            .UseMauiCameraView();
 
 
 		if (!DeviceInfo.Platform.Equals(DevicePlatform.WinUI))

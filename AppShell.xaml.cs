@@ -1,4 +1,5 @@
-﻿using MAUITraining.Models;
+﻿using CommunityToolkit.Mvvm.Messaging;
+using MAUITraining.Models;
 using MAUITraining.ViewModels;
 
 namespace MAUITraining;
@@ -16,8 +17,21 @@ public partial class AppShell : Shell
 		Routing.RegisterRoute(nameof(Views.PaymentPage), typeof(Views.PaymentPage));
 		Routing.RegisterRoute(nameof(Views.UserProfilePage), typeof(Views.UserProfilePage));
 
-        
+		var userLoggedIn = Preferences.Get("IsLoggedIn", false);
+		if (userLoggedIn == true)
+			MyAppShell.CurrentItem = HomePage;
+		MyAppShell.CurrentItem = LogIn;
+		MyAppShell.FlyoutHeader = new FlyoutBehavior() { 
+			
+		};
+
+
+
+
+
     }
+
+	
 
 	
 }

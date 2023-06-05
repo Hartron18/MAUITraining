@@ -17,6 +17,7 @@
             <inheritdoc/>
             <inheritdoc/>
             <inheritdoc/>
+            <inheritdoc/>
         </member>
         <member name="P:MAUITraining.ViewModels.LoginViewModel.Login">
             <inheritdoc cref="F:MAUITraining.ViewModels.LoginViewModel.login"/>
@@ -37,7 +38,13 @@
             <summary>The backing field for <see cref="P:MAUITraining.ViewModels.LoginViewModel.BiometricCommand"/>.</summary>
         </member>
         <member name="P:MAUITraining.ViewModels.LoginViewModel.BiometricCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MAUITraining.ViewModels.LoginViewModel.OnBiometric"/>.</summary>
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MAUITraining.ViewModels.LoginViewModel.OnBiometric"/>.</summary>
+        </member>
+        <member name="F:MAUITraining.ViewModels.LoginViewModel.signUpPageCommand">
+            <summary>The backing field for <see cref="P:MAUITraining.ViewModels.LoginViewModel.SignUpPageCommand"/>.</summary>
+        </member>
+        <member name="P:MAUITraining.ViewModels.LoginViewModel.SignUpPageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MAUITraining.ViewModels.LoginViewModel.SignUpPage"/>.</summary>
         </member>
         <member name="T:MAUITraining.ViewModels.PaymentViewModel">
             <inheritdoc/>
@@ -102,6 +109,7 @@
         <member name="T:MAUITraining.ViewModels.SignUpViewModel">
             <inheritdoc/>
             <inheritdoc/>
+            <inheritdoc/>
         </member>
         <member name="P:MAUITraining.ViewModels.SignUpViewModel.User">
             <inheritdoc cref="F:MAUITraining.ViewModels.SignUpViewModel.user"/>
@@ -120,6 +128,30 @@
         </member>
         <member name="P:MAUITraining.ViewModels.SignUpViewModel.SignUpCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MAUITraining.ViewModels.SignUpViewModel.SignUp"/>.</summary>
+        </member>
+        <member name="F:MAUITraining.ViewModels.SignUpViewModel.loginPageCommand">
+            <summary>The backing field for <see cref="P:MAUITraining.ViewModels.SignUpViewModel.LoginPageCommand"/>.</summary>
+        </member>
+        <member name="P:MAUITraining.ViewModels.SignUpViewModel.LoginPageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MAUITraining.ViewModels.SignUpViewModel.LoginPage"/>.</summary>
+        </member>
+        <member name="T:MAUITraining.ViewModels.TrainingViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:MAUITraining.ViewModels.TrainingViewModel.Labell">
+            <inheritdoc cref="F:MAUITraining.ViewModels.TrainingViewModel.labell"/>
+        </member>
+        <member name="P:MAUITraining.ViewModels.TrainingViewModel.CameraView">
+            <inheritdoc cref="F:MAUITraining.ViewModels.TrainingViewModel.cameraView"/>
+        </member>
+        <member name="T:MAUITraining.ViewModels.UserProfileViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="F:MAUITraining.ViewModels.UserProfileViewModel.takePhotoCommand">
+            <summary>The backing field for <see cref="P:MAUITraining.ViewModels.UserProfileViewModel.TakePhotoCommand"/>.</summary>
+        </member>
+        <member name="P:MAUITraining.ViewModels.UserProfileViewModel.TakePhotoCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MAUITraining.ViewModels.UserProfileViewModel.TakePhoto"/>.</summary>
         </member>
         <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Button.TextColorTo(Microsoft.Maui.Controls.Button,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
             <summary>
@@ -253,6 +285,12 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.DisplayName">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "DisplayName" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Labell">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Labell" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CameraView">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CameraView" generated properties.</summary>
+        </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
             <summary>
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
@@ -285,6 +323,12 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.DisplayName">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "DisplayName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Labell">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Labell" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CameraView">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CameraView" generated properties.</summary>
         </member>
     </members>
 </doc>

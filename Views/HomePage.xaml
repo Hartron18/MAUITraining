@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MAUITraining.Views.HomePage"
              xmlns:viewmodel="clr-namespace:MAUITraining.ViewModels"
-             
+             xmlns:Carrousel="clr-namespace:MAUITraining.CustomControls"
              Title="Home">
     <ContentPage.BindingContext>
         <viewmodel:PaymentViewModel></viewmodel:PaymentViewModel>
@@ -22,6 +22,36 @@
         <ToolbarItem Text="Add" Command="{Binding NewCommand}" IconImageSource="{FontImage Glyph='-', Color=White, Size=25}" />
     </ContentPage.ToolbarItems>-->
     <VerticalStackLayout Spacing="15" Margin="10">
+        <!--<CarouselView x:Name="Carousel" IndicatorView="indicator">
+            <CarouselView.ItemsLayout>
+                <LinearItemsLayout ItemSpacing="10" Orientation="Horizontal"/>
+                
+            </CarouselView.ItemsLayout>
+             
+            
+            <CarouselView.ItemTemplate>
+                <DataTemplate>
+                    <Grid RowDefinitions=".75*,.25" Margin="0" Padding="10" >
+                        <Frame HeightRequest="200" Margin="0" Padding="0">
+                            <Image Source="{Binding ImageUrl}" Aspect="AspectFill"/>
+                        </Frame>
+                        
+                        <HorizontalStackLayout Grid.Row="1" Margin="0,0,-20,0">
+                            <Label Text="{Binding Title}"/>
+                            <Label Text="{Binding Description}"/>
+                        </HorizontalStackLayout>
+
+                    </Grid>
+                    
+                </DataTemplate>
+            </CarouselView.ItemTemplate>
+
+        </CarouselView>
+        <IndicatorView x:Name="indicator"  IndicatorColor="AliceBlue" Margin="5" SelectedIndicatorColor="Blue"
+                       HorizontalOptions="Center" ></IndicatorView>-->
+
+        <Carrousel:Carousell x:Name="Carousel"></Carrousel:Carousell>
+        
         <Button Text= "Pay" Command="{Binding PayCommand}"/>
         <Button Text= "Share" Command="{Binding ShareLinkCommand}"/>
         <Button Text= "Toast" Command="{Binding ToastNotificationCommand}" BackgroundColor="Purple"/>

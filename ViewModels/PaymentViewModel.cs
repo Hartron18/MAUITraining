@@ -110,7 +110,7 @@ namespace MAUITraining.ViewModels
 
             await snackbar.Show(token.Token);
 
-            Shell.Current.DisplaySnackbar("Snackbar 2", action, actionButtonText, duration);
+            await Shell.Current.DisplaySnackbar("Snackbar 2", action, actionButtonText, duration);
         }
 
         //[RelayCommand]

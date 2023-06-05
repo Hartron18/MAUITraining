@@ -1,6 +1,17 @@
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Data.Common.dll
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Diagnostics.DiagnosticSource.dll
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Formats.Tar.dll
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.IO.Pipes.AccessControl.dll
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.IO.Pipes.dll
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.Primitives.dll
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.WebSockets.Client.dll
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Xml.Linq.dll
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Xml.XPath.dll
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\icudt.dat
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\MAUITraining.runtimeconfig.json
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\MAUITraining.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\MAUITraining.pdb
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Camera.MAUI.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\CommunityToolkit.Maui.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\CommunityToolkit.Maui.Core.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\CommunityToolkit.Mvvm.dll
@@ -19,6 +30,7 @@ C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\m
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Newtonsoft.Json.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Plugin.Fingerprint.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Plugin.LocalNotification.dll
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\zxing.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.CSharp.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.VisualBasic.Core.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.VisualBasic.dll
@@ -40,12 +52,10 @@ C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\m
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Configuration.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Console.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Core.dll
-C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Data.Common.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Data.DataSetExtensions.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Data.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Diagnostics.Contracts.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Diagnostics.Debug.dll
-C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Diagnostics.DiagnosticSource.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Diagnostics.FileVersionInfo.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Diagnostics.Process.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Diagnostics.StackTrace.dll
@@ -57,7 +67,6 @@ C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\m
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Drawing.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Dynamic.Runtime.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Formats.Asn1.dll
-C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Formats.Tar.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Globalization.Calendars.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Globalization.Extensions.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Globalization.dll
@@ -72,8 +81,6 @@ C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\m
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.IO.FileSystem.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.IO.IsolatedStorage.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.IO.MemoryMappedFiles.dll
-C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.IO.Pipes.AccessControl.dll
-C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.IO.Pipes.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.IO.UnmanagedMemoryStream.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.IO.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Linq.Expressions.dll
@@ -88,7 +95,6 @@ C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\m
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.NameResolution.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.NetworkInformation.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.Ping.dll
-C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.Primitives.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.Quic.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.Requests.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.Security.dll
@@ -97,7 +103,6 @@ C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\m
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.WebClient.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.WebHeaderCollection.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.WebProxy.dll
-C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.WebSockets.Client.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.WebSockets.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Numerics.Vectors.dll
@@ -173,12 +178,10 @@ C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\m
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Web.HttpUtility.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Web.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Windows.dll
-C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Xml.Linq.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Xml.ReaderWriter.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Xml.Serialization.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Xml.XDocument.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Xml.XPath.XDocument.dll
-C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Xml.XPath.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Xml.XmlDocument.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Xml.XmlSerializer.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Xml.dll
@@ -193,7 +196,6 @@ C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\m
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Controls.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Essentials.dll
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Private.CoreLib.dll
-C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\icudt.dat
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\icudt_CJK.dat
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\icudt_EFIGS.dat
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\icudt_no_CJK.dat

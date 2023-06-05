@@ -49,7 +49,7 @@ namespace MAUITraining.ViewModels
                 string json = JsonConvert.SerializeObject(User);
                 StringContent content = new(json, Encoding.UTF8, "application/json");
 
-                string baseUrl = "https://fr4c3dn5-5001.uks1.devtunnels.ms/";
+                string baseUrl = "https://vmd4xjv8-5001.uks1.devtunnels.ms/";
 
                 HttpResponseMessage response = await _httpClient.PostAsync($"{baseUrl}api/Account/register", content);
 
@@ -65,6 +65,12 @@ namespace MAUITraining.ViewModels
                 Debug.WriteLine($"registration failed {ex.Message}");
             }
 
+        }
+
+        [RelayCommand]
+        public void LoginPage()
+        {
+            Shell.Current.GoToAsync(nameof(UserLoginPage));
         }
 
         
