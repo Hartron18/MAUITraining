@@ -227,7 +227,6 @@ C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-ios\iossimula
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-ios\iossimulator-x64\libxamarin-dotnet-debug.dylib
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-ios\iossimulator-x64\libxamarin-dotnet.a
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-ios\iossimulator-x64\libxamarin-dotnet.dylib
-C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-ios\iossimulator-x64\build-signature\signature
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-ios\iossimulator-x64\mauiimage.inputs
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-ios\iossimulator-x64\mauifont.inputs
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-ios\iossimulator-x64\mauisplash.inputs
@@ -286,3 +285,5 @@ C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-ios\iossimula
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-ios\iossimulator-x64\MAUITraining.pdb
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-ios\iossimulator-x64\MAUITraining.genruntimeconfig.cache
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-ios\iossimulator-x64\ref\MAUITraining.dll
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-ios\iossimulator-x64\build-signature\signature
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-ios\iossimulator-x64\CommunityToolkit.Maui.Markup.dll

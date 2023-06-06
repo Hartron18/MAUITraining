@@ -1,3 +1,5 @@
+using MAUITraining.CustomControlModel;
+using MAUITraining.CustomControls;
 using MAUITraining.Models;
 using MAUITraining.ViewModels;
 
@@ -18,8 +20,7 @@ public partial class HomePage : ContentPage
             new CarouselDetails{Title = "Image5", Description= "Carousel Image 5", ImageUrl="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW58ZW58MHx8MHx8fDA%3D&w=1000&q=80"}
         };
         
-        Carousel.BindingContext = details;
-        
+        Carousel.BindingContext = details;        
         
     }    
 }

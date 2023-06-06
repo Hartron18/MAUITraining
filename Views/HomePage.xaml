@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MAUITraining.Views.HomePage"
+             x:Name="Home"
              xmlns:viewmodel="clr-namespace:MAUITraining.ViewModels"
              xmlns:Carrousel="clr-namespace:MAUITraining.CustomControls"
              Title="Home">
@@ -21,7 +22,7 @@
         <ToolbarItem Text="Add" Command="{Binding NewCommand}" IconImageSource="{FontImage Glyph='+', Color=White, Size=25}" />
         <ToolbarItem Text="Add" Command="{Binding NewCommand}" IconImageSource="{FontImage Glyph='-', Color=White, Size=25}" />
     </ContentPage.ToolbarItems>-->
-    <VerticalStackLayout Spacing="15" Margin="10">
+    <VerticalStackLayout x:Name="Layoutt" Spacing="15" Margin="10">
         <!--<CarouselView x:Name="Carousel" IndicatorView="indicator">
             <CarouselView.ItemsLayout>
                 <LinearItemsLayout ItemSpacing="10" Orientation="Horizontal"/>
@@ -58,5 +59,6 @@
         <Button Text= "Pop-up" Command="{Binding PopupNotificationCommand}" BackgroundColor="GreenYellow"/>
         <Button Text= "Snackbar" Command="{Binding SnackbarNotificationCommand}" BackgroundColor="MintCream"/>
         <Button Text= "Local Notification" Command="{Binding NotificationnCommand}" BackgroundColor="LightCoral"/>
+        <Button Text="Menu" Command="{Binding MenuCommand}"/>
     </VerticalStackLayout>
 </ContentPage>

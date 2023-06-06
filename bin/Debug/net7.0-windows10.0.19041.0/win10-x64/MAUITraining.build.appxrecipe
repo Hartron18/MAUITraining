@@ -613,6 +613,9 @@
     <AppxPackagedFile Include="C:\Users\HARTRON\.nuget\packages\communitytoolkit.maui.core\5.1.0\lib\net7.0-windows10.0.19041\CommunityToolkit.Maui.Core.dll">
       <PackagePath>CommunityToolkit.Maui.Core.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\HARTRON\.nuget\packages\communitytoolkit.maui.markup\3.2.0\lib\net7.0\CommunityToolkit.Maui.Markup.dll">
+      <PackagePath>CommunityToolkit.Maui.Markup.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\HARTRON\.nuget\packages\communitytoolkit.mvvm\8.2.0\lib\net6.0\CommunityToolkit.Mvvm.dll">
       <PackagePath>CommunityToolkit.Mvvm.dll</PackagePath>
     </AppxPackagedFile>

@@ -2,6 +2,7 @@
 using CommunityToolkit.Maui.Core;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using MAUITraining.CustomControls;
 using MAUITraining.Models;
 using MAUITraining.Views;
 using Newtonsoft.Json;
@@ -148,6 +149,12 @@ namespace MAUITraining.ViewModels
             };
 
             await LocalNotificationCenter.Current.Show(request);
+        }
+
+        [RelayCommand]
+        public async void Menu()
+        {
+            await Shell.Current.GoToAsync(nameof(clsMenuView));
         }
 
         

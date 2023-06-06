@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "ZaoFHwCsO1qcduG4ZeRITM/ogcVaSlI6ZH4xskU88Dys7v2UuqATaGluLU0RpMTR9F3R32uqi+K4vGWZHe53TQ==",
+  "dgSpecHash": "RFs6q/olbL2NbqwMY0WhgJNLVxH+gXHiXF8y21lMLrcuKBjDeshs7VHgBcuSr0FCYXZJb1n3iK91uEsXuNkOSA==",
   "success": true,
   "projectFilePath": "C:\\Users\\HARTRON\\Desktop\\ProgramApps\\MAUITraining\\MAUITraining.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HARTRON\\.nuget\\packages\\camera.maui\\1.4.3\\camera.maui.1.4.3.nupkg.sha512",
     "C:\\Users\\HARTRON\\.nuget\\packages\\communitytoolkit.maui\\5.1.0\\communitytoolkit.maui.5.1.0.nupkg.sha512",
     "C:\\Users\\HARTRON\\.nuget\\packages\\communitytoolkit.maui.core\\5.1.0\\communitytoolkit.maui.core.5.1.0.nupkg.sha512",
+    "C:\\Users\\HARTRON\\.nuget\\packages\\communitytoolkit.maui.markup\\3.2.0\\communitytoolkit.maui.markup.3.2.0.nupkg.sha512",
     "C:\\Users\\HARTRON\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.0\\communitytoolkit.mvvm.8.2.0.nupkg.sha512",
     "C:\\Users\\HARTRON\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\HARTRON\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",

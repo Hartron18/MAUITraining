@@ -11,6 +11,7 @@
         "dependencies": {
           "Camera.MAUI": "1.4.3",
           "CommunityToolkit.Maui": "5.1.0",
+          "CommunityToolkit.Maui.Markup": "3.2.0",
           "CommunityToolkit.Mvvm": "8.2.0",
           "Microsoft.Extensions.Configuration": "7.0.0",
           "Microsoft.Extensions.DependencyInjection": "7.0.0",
@@ -829,6 +830,14 @@
           }
         }
       },
+      "CommunityToolkit.Maui.Markup/3.2.0": {
+        "runtime": {
+          "lib/net7.0/CommunityToolkit.Maui.Markup.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "CommunityToolkit.Mvvm/8.2.0": {
         "runtime": {
           "lib/net6.0/CommunityToolkit.Mvvm.dll": {
@@ -1144,6 +1153,13 @@
       "sha512": "sha512-ZIZ7Ls+30EUoF7tgvaM/Y5MHfkdW5L7zsnFAF7aYRT1830HZqWnnyElXTC0GGjnunjvDl/cvthK1+ZfkuHCjrA==",
       "path": "communitytoolkit.maui.core/5.1.0",
       "hashPath": "communitytoolkit.maui.core.5.1.0.nupkg.sha512"
+    },
+    "CommunityToolkit.Maui.Markup/3.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oF4PXJN/FY+rkYEwFcD+Li84ybesbMUImjZKHA/A2L4n+SWk5wWdJ77xRCst+PXD2JCynqNOUBN3KkzwEQ3Z+w==",
+      "path": "communitytoolkit.maui.markup/3.2.0",
+      "hashPath": "communitytoolkit.maui.markup.3.2.0.nupkg.sha512"
     },
     "CommunityToolkit.Mvvm/8.2.0": {
       "type": "package",
