@@ -1,4 +1,3 @@
-Camera.MAUI.dll
 CommunityToolkit.Maui.Core.dll
 CommunityToolkit.Maui.dll
 GoogleGson.dll
@@ -162,7 +161,6 @@ androidx.browser.browser.aar
 androidx.biometric.biometric.aar
 gifdecoder.aar
 glide.aar
-Camera.MAUI.aar
 CommunityToolkit.Maui.Core.aar
 CommunityToolkit.Maui.aar
 GoogleGson.aar
@@ -185,3 +183,5 @@ playservicestasks-18.0.2.aar
 playservicesbase-18.1.0.aar
 playservicesmaps-18.1.0.aar
 playserviceslocation-20.0.0.aar
+Camera.MAUI.dll
+Camera.MAUI.aar

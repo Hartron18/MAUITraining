@@ -9,9 +9,7 @@
     ".NETCoreApp,Version=v7.0/win10-x64": {
       "MAUITraining/1.0": {
         "dependencies": {
-          "Camera.MAUI": "1.4.3",
           "CommunityToolkit.Maui": "5.1.0",
-          "CommunityToolkit.Maui.Markup": "3.2.0",
           "CommunityToolkit.Mvvm": "8.2.0",
           "Microsoft.Extensions.Configuration": "7.0.0",
           "Microsoft.Extensions.DependencyInjection": "7.0.0",
@@ -800,17 +798,6 @@
           }
         }
       },
-      "Camera.MAUI/1.4.3": {
-        "dependencies": {
-          "ZXing.Net": "0.16.9"
-        },
-        "runtime": {
-          "lib/net7.0-windows10.0.19041/Camera.MAUI.dll": {
-            "assemblyVersion": "1.4.3.0",
-            "fileVersion": "1.4.3.0"
-          }
-        }
-      },
       "CommunityToolkit.Maui/5.1.0": {
         "dependencies": {
           "CommunityToolkit.Maui.Core": "5.1.0"
@@ -825,14 +812,6 @@
       "CommunityToolkit.Maui.Core/5.1.0": {
         "runtime": {
           "lib/net7.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "CommunityToolkit.Maui.Markup/3.2.0": {
-        "runtime": {
-          "lib/net7.0/CommunityToolkit.Maui.Markup.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1091,14 +1070,6 @@
             "fileVersion": "10.1.5.0"
           }
         }
-      },
-      "ZXing.Net/0.16.9": {
-        "runtime": {
-          "lib/net7.0/zxing.dll": {
-            "assemblyVersion": "0.16.9.0",
-            "fileVersion": "0.16.9.0"
-          }
-        }
       }
     }
   },
@@ -1133,13 +1104,6 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Camera.MAUI/1.4.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-443hlz/ZCQLpHNwQWwOOEs7wT7/9YGGmWTLNwfpjQciyfQGM7PdcX1bus33ayeqS32kKZQWA5J5aoR4iaaO3Sg==",
-      "path": "camera.maui/1.4.3",
-      "hashPath": "camera.maui.1.4.3.nupkg.sha512"
-    },
     "CommunityToolkit.Maui/5.1.0": {
       "type": "package",
       "serviceable": true,
@@ -1153,13 +1117,6 @@
       "sha512": "sha512-ZIZ7Ls+30EUoF7tgvaM/Y5MHfkdW5L7zsnFAF7aYRT1830HZqWnnyElXTC0GGjnunjvDl/cvthK1+ZfkuHCjrA==",
       "path": "communitytoolkit.maui.core/5.1.0",
       "hashPath": "communitytoolkit.maui.core.5.1.0.nupkg.sha512"
-    },
-    "CommunityToolkit.Maui.Markup/3.2.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-oF4PXJN/FY+rkYEwFcD+Li84ybesbMUImjZKHA/A2L4n+SWk5wWdJ77xRCst+PXD2JCynqNOUBN3KkzwEQ3Z+w==",
-      "path": "communitytoolkit.maui.markup/3.2.0",
-      "hashPath": "communitytoolkit.maui.markup.3.2.0.nupkg.sha512"
     },
     "CommunityToolkit.Mvvm/8.2.0": {
       "type": "package",
@@ -1300,13 +1257,6 @@
       "sha512": "sha512-zk23/BDz6I2DmFQGVVgNuxfteg7TXm2dRdC+aS2dXTfPniF89jJ8uuU/KvJJGr2fdabRK/LTGo0owuljIidBNg==",
       "path": "plugin.localnotification/10.1.5",
       "hashPath": "plugin.localnotification.10.1.5.nupkg.sha512"
-    },
-    "ZXing.Net/0.16.9": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-7WaVMHklpT3Ye2ragqRIwlFRsb6kOk63BOGADV0fan3ulVfGLUYkDi5yNUsZS/7FVNkWbtHAlDLmu4WnHGfqvQ==",
-      "path": "zxing.net/0.16.9",
-      "hashPath": "zxing.net.0.16.9.nupkg.sha512"
     }
   },
   "runtimes": {

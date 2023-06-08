@@ -41,7 +41,7 @@ public class clsMenuView : ContentPage
             //routeIcon.Command = NavigateToCommand;
             //routeIcon.CommandParameter = item.RouteTo;
 
-            Grid grid = new Grid();
+            Grid grid = new Grid() {};
             grid.Children.Add(image);
             grid.Children.Add(TitDesc);
             grid.Children.Add(grid);

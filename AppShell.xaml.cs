@@ -16,7 +16,6 @@ public partial class AppShell : Shell
 		Routing.RegisterRoute(nameof(Views.HomePage), typeof(Views.HomePage));
 		Routing.RegisterRoute(nameof(Views.PaymentPage), typeof(Views.PaymentPage));
 		Routing.RegisterRoute(nameof(Views.UserProfilePage), typeof(Views.UserProfilePage));
-		Routing.RegisterRoute(nameof(CustomControls.MenuCtrl), typeof(CustomControls.MenuCtrl));
 		Routing.RegisterRoute(nameof(CustomControls.clsMenuView), typeof(CustomControls.clsMenuView));
 
 		var userLoggedIn = Preferences.Get("IsLoggedIn", false);

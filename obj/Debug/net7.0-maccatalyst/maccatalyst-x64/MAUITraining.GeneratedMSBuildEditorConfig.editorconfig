@@ -100,6 +100,24 @@ build_metadata.AdditionalFiles.ManifestResourceName = MAUITraining.Views.QrCodeP
 build_metadata.AdditionalFiles.TargetPath = Views\QrCodePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\QrCodePage.xaml
 
+[C:/Users/HARTRON/Desktop/ProgramApps/MAUITraining/Views/ShoppingViews/CartPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUITraining.Views.ShoppingViews.CartPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ShoppingViews\CartPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ShoppingViews\CartPage.xaml
+
+[C:/Users/HARTRON/Desktop/ProgramApps/MAUITraining/Views/ShoppingViews/ProductDetailPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUITraining.Views.ShoppingViews.ProductDetailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ShoppingViews\ProductDetailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ShoppingViews\ProductDetailPage.xaml
+
+[C:/Users/HARTRON/Desktop/ProgramApps/MAUITraining/Views/ShoppingViews/ProductsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUITraining.Views.ShoppingViews.ProductsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ShoppingViews\ProductsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ShoppingViews\ProductsPage.xaml
+
 [C:/Users/HARTRON/Desktop/ProgramApps/MAUITraining/Views/UserLoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MAUITraining.Views.UserLoginPage.xaml
