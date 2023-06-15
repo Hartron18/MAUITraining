@@ -14,6 +14,9 @@
     <MauiXaml Update="CustomControls\Carousell.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="CustomControls\FieldEditorCtrl.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\AboutPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
@@ -29,6 +32,9 @@
     <MauiXaml Update="Views\AllNotesPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Views\CartsPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\HomePage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
@@ -41,16 +47,13 @@
     <MauiXaml Update="Views\PayStackPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Views\ProductDetaillPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Views\ProductPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\QrCodePage.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-    <MauiXaml Update="Views\ShoppingViews\CartPage.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-    <MauiXaml Update="Views\ShoppingViews\ProductDetailPage.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-    <MauiXaml Update="Views\ShoppingViews\ProductsPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Views\UserLoginPage.xaml">

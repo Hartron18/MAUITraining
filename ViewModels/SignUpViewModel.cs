@@ -70,7 +70,7 @@ namespace MAUITraining.ViewModels
         [RelayCommand]
         public void LoginPage()
         {
-            Shell.Current.GoToAsync(nameof(UserLoginPage));
+            Shell.Current.GoToAsync($"//{nameof(UserLoginPage)}");
         }
 
         

@@ -4,7 +4,8 @@
              x:Class="MAUITraining.Views.HomePage"
              x:Name="Home"
              xmlns:viewmodel="clr-namespace:MAUITraining.ViewModels"
-             xmlns:Carrousel="clr-namespace:MAUITraining.CustomControls"
+             xmlns:Ctrls="clr-namespace:MAUITraining.CustomControls"
+             Shell.TabBarIsVisible="True"
              Title="Home">
     <ContentPage.BindingContext>
         <viewmodel:PaymentViewModel></viewmodel:PaymentViewModel>
@@ -51,7 +52,7 @@
         <IndicatorView x:Name="indicator"  IndicatorColor="AliceBlue" Margin="5" SelectedIndicatorColor="Blue"
                        HorizontalOptions="Center" ></IndicatorView>-->
 
-        <Carrousel:Carousell x:Name="Carousel"></Carrousel:Carousell>
+        <Ctrls:Carousell x:Name="Carousel"></Ctrls:Carousell>
         
         <Button Text= "Pay" Command="{Binding PayCommand}"/>
         <Button Text= "Share" Command="{Binding ShareLinkCommand}"/>
@@ -60,5 +61,8 @@
         <Button Text= "Snackbar" Command="{Binding SnackbarNotificationCommand}" BackgroundColor="MintCream"/>
         <Button Text= "Local Notification" Command="{Binding NotificationnCommand}" BackgroundColor="LightCoral"/>
         <Button Text="Menu" Command="{Binding MenuCommand}"/>
+
+        <Ctrls:FieldEditorCtrl />
     </VerticalStackLayout>
+    
 </ContentPage>

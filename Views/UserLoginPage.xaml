@@ -4,11 +4,14 @@
              x:Class="MAUITraining.Views.UserLoginPage"
              xmlns:viewModels ="clr-namespace:MAUITraining.ViewModels"
              x:Name="LogInPage"
-             
+             Shell.NavBarIsVisible="False"
              Title="LogIn">
+    
+    
     <ContentPage.BindingContext>
         <viewModels:LoginViewModel></viewModels:LoginViewModel>
     </ContentPage.BindingContext>
+    
     <Grid RowDefinitions="1*, 6*, 2*"
           Margin="15"
           Padding="10">

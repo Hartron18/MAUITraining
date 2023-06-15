@@ -11,9 +11,9 @@ public class ProductService
         get { return _instance ??= new ProductService(); }
     }
 
-    public List<CartProduct> GetProducts()
+    public List<Product> GetProducts()
     {
-        var cartProducts = new List<CartProduct>();
+        //var products = new List<CartProduct>();
         var products = new List<Product>
         {
             new Product { Id = 1, ProductName="Canon Camera", ProductDescription="HD-4K 2023 Canon Camera", Price=25000, Quantity=10, ImageUrl = "https://shorturl.at/pqIKM"},
@@ -29,17 +29,17 @@ public class ProductService
             new Product { Id = 11, ProductName="Jeep Wrangler", ProductDescription="White jeep wrangler on a tarred road", Price=25000, Quantity=10, ImageUrl = "https://www.pexels.com/photo/white-jeep-wrangler-on-asphalt-road-2882234/"},
             new Product { Id = 12, ProductName="Canon Camera", ProductDescription="HD-4K 2023 Canon Camera", Price=25000, Quantity=10, ImageUrl = "https://shorturl.at/pqIKM"}
         };
-        for (int i = 0; i < products.Count;i++)
-        {
-            foreach (Product product in products)
-            {
-                //cartProducts[i].ProductId = product.Id;
-                cartProducts[i].Product = product;
+        //for (int i = 0; i < products.Count;i++)
+        //{
+        //    foreach (Product product in products)
+        //    {
+        //        //cartProducts[i].ProductId = product.Id;
+        //        cartProducts[i].Product = product;
                 
-            }
-        }
+        //    }
+        //}
 
-        return cartProducts;
+        return products;
         
 
         

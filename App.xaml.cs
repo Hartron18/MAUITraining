@@ -7,6 +7,9 @@ public partial class App : Application
 
         InitializeComponent();
         MainPage = new AppShell();
-		MainPage.FlowDirection = FlowDirection.RightToLeft;
+		MainPage.FlowDirection = FlowDirection.LeftToRight;
+		
 	}
+
+	public static string BaseUrl = "";
 }

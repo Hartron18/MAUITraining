@@ -4,6 +4,31 @@
         <name>MAUITraining</name>
     </assembly>
     <members>
+        <member name="T:MAUITraining.CustomControls.Carousell">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="F:MAUITraining.CustomControls.Carousell.showDetailsCommand">
+            <summary>The backing field for <see cref="P:MAUITraining.CustomControls.Carousell.ShowDetailsCommand"/>.</summary>
+        </member>
+        <member name="P:MAUITraining.CustomControls.Carousell.ShowDetailsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MAUITraining.CustomControls.Carousell.ShowDetails"/>.</summary>
+        </member>
+        <member name="F:MAUITraining.CustomControls.Carousell.navigateToCommand">
+            <summary>The backing field for <see cref="P:MAUITraining.CustomControls.Carousell.NavigateToCommand"/>.</summary>
+        </member>
+        <member name="P:MAUITraining.CustomControls.Carousell.NavigateToCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MAUITraining.CustomControls.Carousell.NavigateTo"/>.</summary>
+        </member>
+        <member name="T:MAUITraining.CustomControls.FieldEditorCtrl">
+            <inheritdoc/>
+        </member>
+        <member name="F:MAUITraining.CustomControls.FieldEditorCtrl.tapCommand">
+            <summary>The backing field for <see cref="P:MAUITraining.CustomControls.FieldEditorCtrl.TapCommand"/>.</summary>
+        </member>
+        <member name="P:MAUITraining.CustomControls.FieldEditorCtrl.TapCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:MAUITraining.CustomControls.FieldEditorCtrl.Tap(System.String)"/>.</summary>
+        </member>
         <member name="T:MAUITraining.ViewModels.AppShellViewModel">
             <inheritdoc/>
         </member>

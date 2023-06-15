@@ -4,7 +4,7 @@ AreAnyAssembliesTrimmed=false
 				AOTCompiler=
 				AOTOutputDirectory=obj\Debug\net7.0-maccatalyst\maccatalyst-x64\nativelibraries/aot-output/
 				AppBundleManifestPath=bin\Debug\net7.0-maccatalyst\maccatalyst-x64\MAUITraining.app\Contents/Info.plist
-				CacheDirectory=C:\Users\HARTRON\Desktop\MAUITraining\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\linker-cache
+				CacheDirectory=C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\linker-cache
 				
 				Debug=true
 				DeploymentTarget=
@@ -183,7 +183,7 @@ FrameworkAssembly=System.Private.CoreLib
 				Interpreter=all
 				IntermediateLinkDir=obj\Debug\net7.0-maccatalyst\maccatalyst-x64\linked\
 				InvariantGlobalization=false
-				ItemsDirectory=C:\Users\HARTRON\Desktop\MAUITraining\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\linker-items
+				ItemsDirectory=C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\linker-items
 				IsAppExtension=false
 				IsSimulatorBuild=
 				LibMonoLinkMode=dylib

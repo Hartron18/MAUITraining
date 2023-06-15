@@ -540,3 +540,10 @@ C:\Users\HARTRON\Desktop\MAUITraining\obj\Debug\net7.0-maccatalyst\maccatalyst-x
 C:\Users\HARTRON\Desktop\MAUITraining\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\MAUITraining.pdb
 C:\Users\HARTRON\Desktop\MAUITraining\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\MAUITraining.genruntimeconfig.cache
 C:\Users\HARTRON\Desktop\MAUITraining\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\ref\MAUITraining.dll
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Camera.MAUI.dll
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\CommunityToolkit.Maui.Markup.dll
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\zxing.dll
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\avatar.png
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\avatar_ios.png
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\camera.png
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\camera_ios.png

@@ -2,11 +2,9 @@
 <StackLayout xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Name="CarouselCtrl"
-              xmlns:Carousel="clr-namespace:MAUITraining.Models"
-              x:DataType="Carousel:CarouselDetails"
              x:Class="MAUITraining.CustomControls.Carousell">
 
-    <CarouselView Loop="False" x:Name="Carousel" IndicatorView="Indicator" >
+    <CarouselView Loop="False" x:Name="Carousel" IndicatorView="Indicator" IsScrollAnimated="True">
         <CarouselView.ItemsLayout>
             <LinearItemsLayout ItemSpacing="10" Orientation="Horizontal"/>
         </CarouselView.ItemsLayout>
@@ -35,6 +33,9 @@
                         </VisualStateGroup>
                     </VisualStateManager.VisualStateGroups>
                     <Frame HeightRequest="200" Margin="0" Padding="0">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding ShowDetailsCommand}"></TapGestureRecognizer>
+                        </Frame.GestureRecognizers>
                         <Image x:Name="CarouselImage" Source="{Binding ImageUrl}" Aspect="AspectFill"/>
                     </Frame>
 
@@ -43,7 +44,7 @@
                             <Label x:Name="Title" Text="{Binding Title}" FontSize="Title"/>
                             <Label x:Name="Description" Text="{Binding Description}" FontSize="Caption"/>
                         </VerticalStackLayout>
-                        <Button x:Name="CarouselNav"  Text="Click to find out" BackgroundColor="Chocolate" TextColor="AntiqueWhite"/>
+                        <Button x:Name="CarouselNav"  Command="{Binding NavigateToCommand}"  Text="Click to find out" BackgroundColor="Chocolate" TextColor="AntiqueWhite"/>
                     </HorizontalStackLayout>
                     
 

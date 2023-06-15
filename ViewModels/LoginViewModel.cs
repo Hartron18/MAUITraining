@@ -19,7 +19,7 @@ namespace MAUITraining.ViewModels
     {
         HttpClient _httpClient;
 
-        private readonly PeriodicTimer timer = new (TimeSpan.FromMinutes(1));
+        private PeriodicTimer timer = new (TimeSpan.FromMinutes(1));
         
 
         private readonly IFingerprint fingerprint;
@@ -113,6 +113,10 @@ namespace MAUITraining.ViewModels
                     while (await timer.WaitForNextTickAsync(token) 
                         && !token.IsCancellationRequested)
                     {
+                        while (App.Current.Windows.Where( x => x.Page.IsFocused == true).Any())
+                        {
+                            timer.Dispose();
+                        }
                         await SignOut();
                         timer.Dispose();
                         
@@ -124,7 +128,6 @@ namespace MAUITraining.ViewModels
                     await Shell.Current.DisplayAlert("Authentication failed", "Access Denied", "Try again or login with email");
                 }
 
-                
             }  
         }
 
