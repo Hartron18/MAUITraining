@@ -1,18 +1,25 @@
+using MAUITraining.CustomControls;
 using MAUITraining.ViewModels.ProductViewModels;
 
 namespace MAUITraining.Views;
 
 public partial class ProductPage : ContentPage
 {
-	public ProductPage(ProductViewModel product)
+   
+    public ProductPage(ProductViewModel item)
 	{
-		InitializeComponent();
-		BindingContext= product;
+        product = item;
+        //ProductGrid.Children.Add(new ctrlclsProduct(product));
+        InitializeComponent();
+		BindingContext= item;
+        
 	}
 
-    public ProductViewModel product = new ();
+    public ProductViewModel product = new();
+
     public ProductPage()
     {
+        //ProductGrid.Children.Add(new ctrlclsProduct(product));
         InitializeComponent();
         BindingContext = product;
     }

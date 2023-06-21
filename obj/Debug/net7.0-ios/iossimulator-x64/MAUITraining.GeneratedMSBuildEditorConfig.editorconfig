@@ -22,6 +22,18 @@ build_metadata.AdditionalFiles.ManifestResourceName = MAUITraining.CustomControl
 build_metadata.AdditionalFiles.TargetPath = CustomControls\Carousell.xaml
 build_metadata.AdditionalFiles.RelativePath = CustomControls\Carousell.xaml
 
+[C:/Users/HARTRON/Desktop/ProgramApps/MAUITraining/CustomControls/CtrlProductCollection.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUITraining.CustomControls.CtrlProductCollection.xaml
+build_metadata.AdditionalFiles.TargetPath = CustomControls\CtrlProductCollection.xaml
+build_metadata.AdditionalFiles.RelativePath = CustomControls\CtrlProductCollection.xaml
+
+[C:/Users/HARTRON/Desktop/ProgramApps/MAUITraining/CustomControls/CtrlProductView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUITraining.CustomControls.CtrlProductView.xaml
+build_metadata.AdditionalFiles.TargetPath = CustomControls\CtrlProductView.xaml
+build_metadata.AdditionalFiles.RelativePath = CustomControls\CtrlProductView.xaml
+
 [C:/Users/HARTRON/Desktop/ProgramApps/MAUITraining/CustomControls/FieldEditorCtrl.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MAUITraining.CustomControls.FieldEditorCtrl.xaml
@@ -99,6 +111,12 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MAUITraining.Views.NotesPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\NotesPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\NotesPage.xaml
+
+[C:/Users/HARTRON/Desktop/ProgramApps/MAUITraining/Views/NProductPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MAUITraining.Views.NProductPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\NProductPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\NProductPage.xaml
 
 [C:/Users/HARTRON/Desktop/ProgramApps/MAUITraining/Views/PayStackPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

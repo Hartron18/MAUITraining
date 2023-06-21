@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RFs6q/olbL2NbqwMY0WhgJNLVxH+gXHiXF8y21lMLrcuKBjDeshs7VHgBcuSr0FCYXZJb1n3iK91uEsXuNkOSA==",
+  "dgSpecHash": "WT6L6ySDlADtFkNt2nSWOVdGFXma8DaU8SVkmNwyOX85n6g6v7I/oNhuuFFxE5V/800+Zxfb8gbE2qASlxSImw==",
   "success": true,
   "projectFilePath": "C:\\Users\\HARTRON\\Desktop\\ProgramApps\\MAUITraining\\MAUITraining.csproj",
   "expectedPackageFiles": [
@@ -21,8 +21,8 @@
     "C:\\Users\\HARTRON\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\HARTRON\\.nuget\\packages\\microsoft.graphics.win2d\\1.0.4\\microsoft.graphics.win2d.1.0.4.nupkg.sha512",
     "C:\\Users\\HARTRON\\.nuget\\packages\\microsoft.maui.controls.maps\\7.0.86\\microsoft.maui.controls.maps.7.0.86.nupkg.sha512",
-    "C:\\Users\\HARTRON\\.nuget\\packages\\microsoft.maui.graphics\\7.0.59\\microsoft.maui.graphics.7.0.59.nupkg.sha512",
-    "C:\\Users\\HARTRON\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\7.0.59\\microsoft.maui.graphics.win2d.winui.desktop.7.0.59.nupkg.sha512",
+    "C:\\Users\\HARTRON\\.nuget\\packages\\microsoft.maui.graphics\\7.0.81\\microsoft.maui.graphics.7.0.81.nupkg.sha512",
+    "C:\\Users\\HARTRON\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\7.0.81\\microsoft.maui.graphics.win2d.winui.desktop.7.0.81.nupkg.sha512",
     "C:\\Users\\HARTRON\\.nuget\\packages\\microsoft.maui.maps\\7.0.86\\microsoft.maui.maps.7.0.86.nupkg.sha512",
     "C:\\Users\\HARTRON\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.755\\microsoft.windows.sdk.buildtools.10.0.22621.755.nupkg.sha512",
     "C:\\Users\\HARTRON\\.nuget\\packages\\microsoft.windowsappsdk\\1.2.221209.1\\microsoft.windowsappsdk.1.2.221209.1.nupkg.sha512",

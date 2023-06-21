@@ -45,6 +45,7 @@ public class clsMenuView : ContentPage
             grid.Children.Add(image);
             grid.Children.Add(TitDesc);
             grid.Children.Add(grid);
+            
 
             var gridLayout = grid.HorizontalOptions.Alignment;
             gridLayout = LayoutAlignment.Fill;
@@ -64,6 +65,7 @@ public class clsMenuView : ContentPage
         Content= layout;
         BindingContext = menuDetails;
         Title = "Menu";
+
     }
 
 }

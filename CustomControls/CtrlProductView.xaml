@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUITraining.CustomControls.CtrlProductView"
+             xmlns:customViewModel="clr-namespace:MAUITraining.ViewModels">
+    <ContentView.BindingContext>
+        <customViewModel:ctrlCustomProductViewModel></customViewModel:ctrlCustomProductViewModel>
+    </ContentView.BindingContext>
+    <ContentView.Resources>
+        <ResourceDictionary>
+            <ControlTemplate x:Key="StandardProductCardView">
+                <Frame Margin="0" Padding="0" IsClippedToBounds="True" HeightRequest="250">
+                    <Grid RowDefinitions=".5*,.5*" >
+                        <Image Source="{TemplateBinding ImageUrl}" Aspect="AspectFill" />
+                        <Label Text="{TemplateBinding ProductName}" Grid.Row="0" VerticalOptions="End" Padding="3" TextColor="Red"/>
+
+                        <Grid Grid.Row="1" RowDefinitions=".45*,.55*">
+
+                            <Grid ColumnDefinitions=".4*,.6*" Padding="10" >
+
+                                <Label Text="{TemplateBinding Price}" TextColor="Black" HorizontalOptions="Start" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+
+                                <HorizontalStackLayout Grid.Column="1" Spacing="10" HorizontalOptions="End">
+                                    <Button Text="-" Padding="2" Margin="0" TextColor="AntiqueWhite" WidthRequest="30" HeightRequest="30" BackgroundColor="Blue"/>
+                                    <Label x:Name="QtyCount" TextColor="Black" Text="0" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+                                    <Button Text="+" Padding="2" Margin="0" WidthRequest="30" HeightRequest="30" BackgroundColor="AliceBlue"/>
+                                </HorizontalStackLayout>
+
+
+                            </Grid>
+
+                            <ContentPresenter Grid.Row="1"/>
+                            
+                        </Grid>
+
+                    </Grid>
+                </Frame>
+            </ControlTemplate>
+            <ControlTemplate x:Key="StandardProductCardView2">
+                <Frame Margin="0" Padding="0" IsClippedToBounds="True" HeightRequest="250"
+                      >
+                    <Grid RowDefinitions=".5*,.5*" >
+                        <Image Source="{TemplateBinding ImageUrl}" Aspect="AspectFill" />
+                        <Label Text="{TemplateBinding ProductName}" Grid.Row="0" VerticalOptions="End" Padding="3" TextColor="Red"/>
+
+                        <Grid Grid.Row="1" RowDefinitions=".45*,.55*">
+
+                            <Grid ColumnDefinitions=".4*,.6*" Padding="10" >
+
+                                <Label Text="{TemplateBinding Price}" TextColor="Black" HorizontalOptions="Start" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+
+                                <HorizontalStackLayout Grid.Column="1" Spacing="10" HorizontalOptions="End">
+                                    <Button Text="-" Padding="2" Margin="0" TextColor="AntiqueWhite" WidthRequest="30" HeightRequest="30" BackgroundColor="Blue"/>
+                                    <Label x:Name="QtyCount" TextColor="Black" Text="0" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+                                    <Button Text="+" Padding="2" Margin="0" WidthRequest="30" HeightRequest="30" BackgroundColor="AliceBlue"/>
+                                </HorizontalStackLayout>
+
+
+                            </Grid>
+
+                            <!--<ContentPresenter Grid.Row="1"/>-->
+                            <Button Grid.Column="1" Text="Remove" Command="{Binding Source={RelativeSource AncestorType={x:Type customViewModel:ctrlCustomProductViewModel}}, Path=ShowPopUpCommand}"/>
+
+                        </Grid>
+
+                    </Grid>
+                </Frame>
+            </ControlTemplate>
+            <ControlTemplate x:Key="ListProductCardView">
+                <Frame Margin="0" Padding="0"
+                       IsClippedToBounds="True">
+                    <Grid ColumnDefinitions=".5*,.1*,.4*" HeightRequest="70">
+                        
+                        <Grid ColumnDefinitions=".6*,.4*">
+
+                            <Frame>
+                                <Image Source="{TemplateBinding ImageUrl}" Aspect="AspectFill" />
+                            </Frame>
+
+                            <VerticalStackLayout>
+                                <Label Text="{TemplateBinding ProductName}" Grid.Column="1" Margin="0,-10,0,0"/>
+                                <Label Text="{TemplateBinding Price}" />
+                            </VerticalStackLayout>
+                        </Grid>
+                        
+                        <Grid ColumnDefinitions="Auto,.6*" Grid.Column="1" >
+
+                            <VerticalStackLayout WidthRequest="25">
+                                <Button Text="+"  WidthRequest="20" HeightRequest="20"/>
+                                <Label x:Name="QtyCount" Text="{TemplateBinding CartQuantity}" Margin="3"/>
+                                <Button Text="-" WidthRequest="20" HeightRequest="20"/>
+                            </VerticalStackLayout>
+
+                            <Button Grid.Column="1" Text="Remove" Command="{Binding Source={RelativeSource AncestorType={x:Type customViewModel:ctrlCustomProductViewModel}}, Path=ShowPopUpCommand}"/>
+                            <!--{Binding Source={RelativeSource AncestorType={x:Type local:PeopleViewModel}}, Path=DeletePersonCommand}"-->
+                        </Grid>
+
+                    </Grid>
+                </Frame>
+            </ControlTemplate>
+        </ResourceDictionary>
+    </ContentView.Resources>
+</ContentView>

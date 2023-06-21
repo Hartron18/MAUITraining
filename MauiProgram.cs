@@ -9,6 +9,7 @@ using Plugin.Fingerprint.Abstractions;
 using Plugin.LocalNotification;
 using static Camera.MAUI.CameraView;
 using MAUITraining.ViewModels;
+using CommunityToolkit.Maui.Markup;
 
 namespace MAUITraining;
 
@@ -27,6 +28,7 @@ public static class MauiProgram
 			.UseMauiMaps()
             .UseMauiCommunityToolkit()
 			.UseLocalNotification()
+			.UseMauiCommunityToolkitMarkup()
             .UseMauiCameraView();
 
 
@@ -34,6 +36,8 @@ public static class MauiProgram
 		{
             builder.Services.AddSingleton(typeof(IFingerprint), CrossFingerprint.Current);
         }
+
+		builder.Services.AddTransient(typeof(NProductPage));
 
 		//builder.Services.AddSingleton(typeof(AppShellViewModel));
 		

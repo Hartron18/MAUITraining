@@ -1,6 +1,8 @@
 ﻿
 
 using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
+using MAUITraining.CustomControls;
 using MAUITraining.Models;
 using MAUITraining.Services;
 using MAUITraining.Views;
@@ -29,6 +31,30 @@ public partial class ProductViewModel:ObservableObject
 
     private decimal amount = 0;
 
+    [RelayCommand]
+    public void AddtoCart(int id)
+    {
+        var product = Products.Where(x => x.Id == id).FirstOrDefault();
+         
+        if (CartProducts.Where(x => x.Id == id).Any())
+        {
+            CartProduct cart = new ()
+            {
+                CartQuantity = 10,
+                Id = id,
+                ProductAmount = product.Price * 10,
+                Product = product
+            };
+
+            CartProducts.Add(cart);
+        }
+
+        var oProduct = CartProducts.Where(x => x.Product.Id == product.Id).FirstOrDefault();
+        oProduct.CartQuantity += 10;
+        oProduct.ProductAmount = product.Price * 10;
+
+    }
+
     public decimal TotalAmount {
         get { return amount; } 
         private set 
@@ -42,7 +68,9 @@ public partial class ProductViewModel:ObservableObject
 
     public CartProduct SelectedItem { get; set; }
 
-    private INavigation navigation;
+    public Product Product = new Product();
+
+    private readonly INavigation navigation;
 
 
     public void LoadData()
@@ -70,26 +98,13 @@ public partial class ProductViewModel:ObservableObject
         await navigation.PushModalAsync(new CartsPage(this));
     }
 
-    public void AddtoCart(Product product,int cartQuantity)
+    [RelayCommand]
+    public async void ShowProducts()
     {
-        var cartoProduct = CartProducts.Where(x => x.Product.Id == product.Id).Any();
-        if (cartoProduct == false)
-        {
-            CartProduct cart = new CartProduct
-            {
-                CartQuantity = cartQuantity,
-                Id = product.Id,
-                ProductAmount = product.Price * cartQuantity,
-                Product = product
-            };
-
-            CartProducts.Add(cart);
-        }
-
-        var oProduct = CartProducts.Where(x => x.Product.Id == product.Id).FirstOrDefault();
-        oProduct.CartQuantity += cartQuantity;
-        oProduct.ProductAmount = product.Price * cartQuantity;
+        await Shell.Current.GoToAsync(nameof(NProductPage));
         
     }
+
+    
 }
 

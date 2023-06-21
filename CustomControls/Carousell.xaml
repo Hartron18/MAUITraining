@@ -4,7 +4,7 @@
              x:Name="CarouselCtrl"
              x:Class="MAUITraining.CustomControls.Carousell">
 
-    <CarouselView Loop="False" x:Name="Carousel" IndicatorView="Indicator" IsScrollAnimated="True">
+   <CarouselView Loop="False" x:Name="Carousel" IndicatorView="Indicator" IsScrollAnimated="True">
         <CarouselView.ItemsLayout>
             <LinearItemsLayout ItemSpacing="10" Orientation="Horizontal"/>
         </CarouselView.ItemsLayout>
