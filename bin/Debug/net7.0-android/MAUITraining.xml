@@ -47,6 +47,22 @@
         <member name="P:MAUITraining.ViewModels.ctrlCustomProductViewModel.ShowPopUpCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MAUITraining.ViewModels.ctrlCustomProductViewModel.ShowPopUp"/>.</summary>
         </member>
+        <member name="T:MAUITraining.ViewModels.DynamenViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:MAUITraining.ViewModels.DynamenViewModel.MenuItems">
+            <inheritdoc cref="F:MAUITraining.ViewModels.DynamenViewModel.menuItems"/>
+        </member>
+        <member name="P:MAUITraining.ViewModels.DynamenViewModel.Title">
+            <inheritdoc cref="F:MAUITraining.ViewModels.DynamenViewModel.title"/>
+        </member>
+        <member name="F:MAUITraining.ViewModels.DynamenViewModel.gotoProductPageCommand">
+            <summary>The backing field for <see cref="P:MAUITraining.ViewModels.DynamenViewModel.GotoProductPageCommand"/>.</summary>
+        </member>
+        <member name="P:MAUITraining.ViewModels.DynamenViewModel.GotoProductPageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MAUITraining.ViewModels.DynamenViewModel.GotoProductPage"/>.</summary>
+        </member>
         <member name="T:MAUITraining.ViewModels.LoginViewModel">
             <inheritdoc/>
             <inheritdoc/>
@@ -151,6 +167,7 @@
             <inheritdoc/>
             <inheritdoc/>
             <inheritdoc/>
+            <inheritdoc/>
         </member>
         <member name="P:MAUITraining.ViewModels.ProductViewModels.ProductViewModel.Products">
             <inheritdoc cref="F:MAUITraining.ViewModels.ProductViewModels.ProductViewModel.products"/>
@@ -169,6 +186,12 @@
         </member>
         <member name="P:MAUITraining.ViewModels.ProductViewModels.ProductViewModel.ShowProductsCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MAUITraining.ViewModels.ProductViewModels.ProductViewModel.ShowProducts"/>.</summary>
+        </member>
+        <member name="F:MAUITraining.ViewModels.ProductViewModels.ProductViewModel.showMenusCommand">
+            <summary>The backing field for <see cref="P:MAUITraining.ViewModels.ProductViewModels.ProductViewModel.ShowMenusCommand"/>.</summary>
+        </member>
+        <member name="P:MAUITraining.ViewModels.ProductViewModels.ProductViewModel.ShowMenusCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MAUITraining.ViewModels.ProductViewModels.ProductViewModel.ShowMenus"/>.</summary>
         </member>
         <member name="T:MAUITraining.ViewModels.SignUpViewModel">
             <inheritdoc/>
@@ -322,6 +345,12 @@
             for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
             </summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.MenuItems">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "MenuItems" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Title">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Title" generated properties.</summary>
+        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Login">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Login" generated properties.</summary>
         </member>
@@ -366,6 +395,12 @@
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
             for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
             </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.MenuItems">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "MenuItems" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Title">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Title" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Login">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Login" generated properties.</summary>

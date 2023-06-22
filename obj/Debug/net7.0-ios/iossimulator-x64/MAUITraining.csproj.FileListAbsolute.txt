@@ -567,3 +567,4 @@ C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-ios\iossimula
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\Resources\avatar_ios.png
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\Resources\camera.png
 C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\Resources\camera_ios.png
+C:\Users\HARTRON\Desktop\ProgramApps\MAUITraining\obj\Debug\net7.0-ios\iossimulator-x64\build-signature\signature

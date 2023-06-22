@@ -105,6 +105,13 @@ public partial class ProductViewModel:ObservableObject
         
     }
 
-    
+
+    [RelayCommand]
+    public async void ShowMenus()
+    {
+        await Shell.Current.GoToAsync(nameof(DynamenPage));
+
+    }
+
 }
 

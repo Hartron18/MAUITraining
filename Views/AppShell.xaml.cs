@@ -20,6 +20,7 @@ public partial class AppShell : Shell
 		Routing.RegisterRoute(nameof(Views.CartsPage), typeof(Views.CartsPage));
 		Routing.RegisterRoute(nameof(Views.ProductDetaillPage),typeof(Views.ProductDetaillPage));
 		Routing.RegisterRoute(nameof(Views.NProductPage), typeof(Views.NProductPage));
+		Routing.RegisterRoute(nameof(Views.DynamenPage), typeof(Views.DynamenPage));
 
 		var userLoggedIn = Preferences.Get("IsLoggedIn", false);
 		if (userLoggedIn == true)
